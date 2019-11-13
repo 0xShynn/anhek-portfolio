@@ -1,7 +1,9 @@
 # Antonin Nhek : My Portfolio v1
 
 ## Description
-I'm building a portfolio to showcase my design & front-end development skills. I use the React framework **Gatsby** for its architecture/speed performance and the low-level CSS framework **Tailwind CSS** for its utility-first approach. The website is hosted by **Netlify**.
+I'm building a portfolio to showcase my design & front-end development skills.  
+I use the React framework **Gatsby** for its architecture/speed performance and the low-level CSS framework **Tailwind CSS** for its utility-first approach.  
+The website is hosted by **Netlify**.
 
 Live version : [http://anhek.netlify.com](http://anhek.netlify.com)
 
