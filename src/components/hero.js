@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       <div className="md:w-2/3 flex items-center mt-4 md:mt-0 md:pr-6">
         <div className="flex items-center flex-col text-white md:items-start">
-          <h2 className="mb-4 font-semibold text-center text-xl md:text-left md:text-xl lg:text-3xl xl:text-4xl">Bonjour! I'm <span className="text-secondary">Antonin Nhek</span>, a visual designer & junior front-end developer based in Lyon, France.</h2>
+          <h2 className="mb-4 font-semibold text-center text-xl md:text-left md:text-xl lg:text-3xl xl:text-4xl">Bonjour! I'm Antonin Nhek, a visual designer & junior front-end developer based in Lyon, France.</h2>
           <h3 className="w-full text-gray-100 text-center md:text-left md:text-lg lg:text-2xl md:max-w-md lg:max-w-lg">I enjoy crafting meaningful and intuitive solutions with pixels and code.</h3>
         </div>
       </div>

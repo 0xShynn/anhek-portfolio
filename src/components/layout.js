@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="mx-auto">
         <main>{children}</main>
-        <footer className="p-10 text-center">
+        <footer className="p-10 text-center bg-tertiary">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

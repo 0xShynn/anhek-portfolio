@@ -13,6 +13,9 @@ const IndexPage = () => (
     <div className="bg-primary">
       <Hero/>
     </div>
+    <div className="bg-tertiary">
+      <Work/>
+    </div>
   </Layout>
 )
 
