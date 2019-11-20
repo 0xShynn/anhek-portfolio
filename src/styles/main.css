@@ -1,16 +1,22 @@
 @tailwind base;
 @tailwind components;
 
-/* * {
-  @apply border border-solid border-teal-500;
-} */
-
 .link {
   transition: all .3s;
 }
 
 .link:hover {
   @apply text-secondary underline;
+}
+
+p {
+  @apply text-lg;
+}
+
+@screen md {
+  p {
+    @apply text-xl;
+  }
 }
 
 @tailwind utilities;

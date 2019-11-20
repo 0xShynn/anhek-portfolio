@@ -31,7 +31,7 @@ const Work = () => {
   let projects = data.allMarkdownRemark.edges;
 
   return (
-    <section id="work" className="mx-auto p-12 md:max-w-5xl md:py-20 lg:py-40 lg:max-w-6xl">
+    <section id="work" className="mx-auto px-3 sm:px-6 py-12 sm:py-16 md:max-w-4xl md:py-20 lg:py-40 lg:max-w-6xl">
       <div className="flex flex-wrap -mx-3">
         {projects.map(({node})=>(
           <Project
