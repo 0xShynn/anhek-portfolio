@@ -2,9 +2,7 @@ import React from 'react';
 import { FaGithubAlt, FaLinkedinIn, FaTwitter, FaCodepen } from "react-icons/fa"
 
 
-const Social = ({value}) => {
-  console.log(value);
-  
+const Social = ({value}) => {  
   return (
     <div className="mx-auto w-56 text-3xl p-5 md:mx-0 md:pl-0">
       <ul className="flex justify-between">
