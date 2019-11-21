@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="px-10 py-20 text-center border-t border-gray-300">
       <h3 className="text-xl font-bold">Antonin Nhek</h3>
-      <div className="flex justify-center mb-3">
+      <div className="flex justify-center py-5">
         <Social value="text-primary hover:text-gray-800 link"/>
       </div>
       <p className="text-base text-gray-700">Designed and built by Antonin Nhek © {new Date().getFullYear()} <br/>
