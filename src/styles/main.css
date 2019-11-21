@@ -6,7 +6,7 @@
 }
 
 .link:hover {
-  @apply text-secondary underline;
+  @apply text-secondary;
 }
 
 p {
@@ -17,6 +17,13 @@ p {
   p {
     @apply text-xl;
   }
+}
+
+
+/* ABOUT SECTION */
+
+.list li svg {
+  @apply inline text-gray-500 mr-2;
 }
 
 @tailwind utilities;

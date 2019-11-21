@@ -9,7 +9,7 @@ class Project extends Component {
     const tagList = tags.length ? (
       tags.map((tag) => {
         return (
-          <span className="text-sm mr-2 mb-2 py-1 px-2 rounded bg-gray-800 text-gray-500 hover:bg-gray-700 hover:text-gray-400" key={tag}>{tag}</span>
+          <span className="text-sm mr-2 mb-2 py-1 px-2 rounded bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-gray-400" key={tag}>{tag}</span>
         )
       })
     ) : (
@@ -19,11 +19,13 @@ class Project extends Component {
     return (
       <div className="px-6 mb-10 md:mb-20 w-full md:w-1/2" key={title}>
         <div className="text-white">
-          <Img fluid={img} className="h-64 rounded"/>
+          <a className="" href={url} title={title}>
+            <Img fluid={img} className="rounded"/>
+          </a>
           <div className="info py-3 mt-2 flex justify-between items-end">
             <div className="">
             <div className="align-middle">
-              <a href={url} className="text-white mb-1 font-bold text-xl md:text-2xl cursor-pointer hover:text-secondary">{title} <FaExternalLinkAlt className="react-icons inline align-middle pb-1 pl-1"/></a>
+              <a href={url} className="link text-white mb-1 font-bold text-xl md:text-2xl cursor-pointer hover:text-secondary">{title} <FaExternalLinkAlt className="react-icons inline align-middle pb-1 pl-1"/></a>
             </div>              
               <p className="text-gray-500 mb-3 block">{description}</p>
               <div className="flex flex-wrap">{tagList}</div>
