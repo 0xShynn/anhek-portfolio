@@ -12,8 +12,12 @@ module.exports = {
       colors: {
         primary: '#214ECF',
         secondary: '#FFDD03',
+        secondary_dark: '#C7FF84',
         tertiary: '#191E26',
       },
+      screens: {
+        dark: { raw: '(prefers-color-scheme: dark)' }
+      },      
     }
   },
   variants: {},

@@ -11,13 +11,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="bg-primary">
+    <div className="bg-white dark:bg-gray-900 border-b dark:border-gray-800">
       <Hero/>
     </div>
-    <div className="bg-tertiary">
+    <div className="bg-gray-100 dark:bg-gray-900 border-b dark:border-gray-800">
       <Work/>
     </div>
-    <div className="bg-white">
+    <div className="bg-white dark:bg-gray-900">
       <About/>
     </div>
   </Layout>

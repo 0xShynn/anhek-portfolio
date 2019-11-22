@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
-.link {
+.link, .dark {
   transition: all .3s;
 }
 
-.link:hover {
-  @apply text-secondary;
+.credit-link {
+  @apply text-primary;  
 }
 
 p {
@@ -25,5 +26,3 @@ p {
 .list li svg {
   @apply inline text-gray-500 mr-2;
 }
-
-@tailwind utilities;
