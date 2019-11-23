@@ -4,10 +4,23 @@
 
 .link, .dark {
   transition: all .3s;
+  @apply cursor-pointer;
 }
 
-.credit-link {
-  @apply text-primary;  
+.lang_active::after {
+  content: " ";
+  bottom: -12px;
+  border-radius: 50%;
+  left: 6px;
+  height: 8px;
+  width: 8px;
+  @apply bg-primary absolute;
+}
+
+@screen dark {
+  .lang_active::after {
+    @apply bg-secondary_dark;
+  }
 }
 
 p {

@@ -3,6 +3,7 @@ import React from 'react';
 import nenderoid from '../svg/anhek-nenderoid.svg'
 import nenderoiddark from '../svg/anhek-nenderoid-dark.svg'
 import Social from './social';
+import { FormattedMessage, injectIntl } from 'react-intl';
 
 
 const Hero = () => {
@@ -14,13 +15,17 @@ const Hero = () => {
       </div>
       <div className="md:w-2/3 flex items-center mt-4 md:mt-0 md:pl-3">
         <div className="flex flex-col items-center text-primary dark:text-secondary_dark md:items-start">
-          <h2 className="mb-4 text-2xl font-semibold text-center md:text-left sm:text-3xl lg:text-3xl xl:text-4xl"><span className="inline-block mb-2 text-xl text-gray-800 md:text-2xl dark:text-white">Antonin Nhek</span><br/> Visual Designer &<br/> Junior Front-End Developer</h2>
-          <h3 className="w-full mb-8 text-xl text-gray-800 dark:text-gray-100 text-center md:text-left sm:text-1xl md:max-w-md lg:max-w-lg">I enjoy crafting meaningful and intuitive solutions with pixels and code.</h3>
-          <Social value="text-gray-800 dark:text-white dark:hover:text-secondary_dark link"/>
+          <h2 className="mb-4 text-2xl font-semibold text-center md:text-left sm:text-3xl lg:text-3xl xl:text-4xl">
+            <span className="inline-block mb-2 text-xl text-gray-800 md:text-2xl dark:text-white">Antonin Nhek</span><br/> <FormattedMessage id="job_design" /> &<br/> <FormattedMessage id="job_dev" />
+          </h2>
+          <h3 className="w-full mb-8 text-xl text-gray-800 dark:text-gray-100 text-center md:text-left sm:text-1xl md:max-w-md lg:max-w-lg">
+            <FormattedMessage id="job_description" />
+          </h3>
+          <Social value="text-primary hover:text-tertiary dark:text-white dark:hover:text-secondary_dark link"/>
         </div>
       </div>
     </section>
   );
 }
  
-export default Hero;
+export default injectIntl(Hero);

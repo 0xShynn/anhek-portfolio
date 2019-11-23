@@ -1,0 +1,24 @@
+{
+  "title": "Gatsby English",
+  "description": "Kick off your next, great Gatsby project with this default-starter-intl. This barebones starter ships with the main Gatsby configuration files you might need.",
+  "author": "@wiziple",
+  "nav": {
+    "work": "Work",
+    "about": "About"
+  },
+  "job_design": "Visual Designer",
+  "job_dev" : "Junior Front-End Developer",
+  "job_description" : "I enjoy crafting meaningful and intuitive solutions with pixels and code.",
+  "footer_info" : "Designed and built by",
+  "welcome": "Welcome to your new Gatsby site.",
+  "title_page2": "Page two",
+  "hello_page2": "Hi from the second page",
+  "go_page2": "Go to page 2",
+  "build": "Now go build something great.",
+  "welcome_page2": "Welcome to page 2",
+  "go_back": "Go back to the homepage",
+  "notfound": {
+    "header": "NOT FOUND",
+    "description": "You just hit a route that doesn't exist... the sadness."
+  }
+}
