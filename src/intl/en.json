@@ -13,7 +13,8 @@
     "job_description" : "I enjoy crafting meaningful and intuitive solutions with pixels and code."
   },
   "footer": {
-    "info": "Designed and built by",
+    "socialconnect": "Let's connect!",
+    "info": "Build with",
     "powered": "Powered by",
     "back_to_top": "Back to top"
   },

@@ -13,7 +13,8 @@
     "job_description" : "J'aime concevoir des applications cohérentes et intuitives grâce avec des pixels et du code."
   },
   "footer": {
-    "info": "Designé et developpé par",
+    "socialconnect": "Réseaux sociaux",
+    "info": "Réalisé avec",
     "powered": "Propulsé par",
     "back_to_top": "Retour en haut de page"
   },
