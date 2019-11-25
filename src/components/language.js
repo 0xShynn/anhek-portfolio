@@ -16,7 +16,7 @@ const Language = () => {
               className={
                 "cursor-pointer inline " + 
                 (currentLocale === language ? 
-                  `lang_active relative text-primary dark:text-secondary_dark` : `lang_inactive text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white`) }
+                  `lang_active relative text-primary dark:text-secondary` : `lang_inactive text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white`) }
               key={language} 
               onClick={() => changeLocale(language)}
             >

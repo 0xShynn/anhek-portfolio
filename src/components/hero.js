@@ -14,14 +14,14 @@ const Hero = () => {
         <img src={nenderoiddark} className="w-40 dark:inline hidden md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version" />
       </div>
       <div className="md:w-2/3 flex items-center mt-4 md:mt-0 md:pl-3">
-        <div className="flex flex-col items-center text-primary dark:text-secondary_dark md:items-start">
+        <div className="flex flex-col items-center text-primary dark:text-secondary md:items-start">
           <h2 className="mb-4 text-2xl font-semibold text-center md:text-left sm:text-3xl lg:text-3xl xl:text-4xl">
-            <span className="inline-block mb-2 text-xl text-gray-800 md:text-2xl dark:text-white">Antonin Nhek</span><br/> <FormattedMessage id="job_design" /> &<br/> <FormattedMessage id="job_dev" />
+            <span className="inline-block mb-2 text-xl text-gray-800 md:text-2xl dark:text-white">Antonin Nhek</span><br/> <FormattedMessage id="hero.job_design" /> &<br/> <FormattedMessage id="hero.job_dev" />
           </h2>
           <h3 className="w-full mb-8 text-xl text-gray-800 dark:text-gray-100 text-center md:text-left sm:text-1xl md:max-w-md lg:max-w-lg">
-            <FormattedMessage id="job_description" />
+            <FormattedMessage id="hero.job_description" />
           </h3>
-          <Social value="text-primary hover:text-tertiary dark:text-white dark:hover:text-secondary_dark link"/>
+          <Social value="text-gray-800 hover:text-primary dark:text-white dark:hover:text-secondary"/>
         </div>
       </div>
     </section>

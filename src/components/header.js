@@ -1,26 +1,25 @@
-import { FormattedMessage, injectIntl, Link } from "gatsby-plugin-intl"
-import PropTypes from 'prop-types';
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import React from "react"
 import Language from "./language"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Header = () => (
   <header id="top" className="bg-white dark:bg-gray-900 text-center">
     <div className="mx-auto pb-0 pt-10 px-4 max-w-md sm:max-w-xl md:max-w-6xl lg:pt-12">
         <nav className="flex flex-wrap justify-center text-gray-800 dark:text-white uppercase font-bold text-md md:text-md md:justify-end">
-          <Link to="/" className="link mx-3 sm:mx-4 md:mx-5 hover:text-secondary_dark"><FormattedMessage id="nav.work" /></Link>
-          <Link to="/" className="link mx-3 sm:mx-4 md:mx-5 hover:text-secondary_dark"><FormattedMessage id="nav.about" /></Link>
-          <Link to="/" className="link mx-3 sm:mx-4 md:mx-5 hover:text-secondary_dark">Contact</Link>
+          <AnchorLink href="#work" className="mx-3 sm:mx-4 md:mx-5 hover:text-primary dark:hover:text-secondary">
+            <FormattedMessage id="nav.work" />
+          </AnchorLink>
+          <AnchorLink href="#about" className="mx-3 sm:mx-4 md:mx-5 hover:text-primary dark:hover:text-secondary">
+            <FormattedMessage id="nav.about" />
+          </AnchorLink>
+          <AnchorLink className="mx-3 sm:mx-4 md:mx-5 hover:text-primary dark:hover:text-secondary">
+            <FormattedMessage id="nav.contact"/>
+          </AnchorLink>
           <Language/>
         </nav>
     </div>
   </header>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 export default injectIntl(Header)

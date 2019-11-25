@@ -2,26 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.link, .dark {
+
+/* LINKS */
+
+a {
   transition: all .3s;
-  @apply cursor-pointer;
 }
 
-.lang_active::after {
-  content: " ";
-  bottom: -12px;
-  border-radius: 50%;
-  left: 6px;
-  height: 8px;
-  width: 8px;
-  @apply bg-primary absolute;
+.light {
+  @apply text-primary;
 }
 
-@screen dark {
-  .lang_active::after {
-    @apply bg-secondary_dark;
-  }
+.light:hover {
+  @apply text-gray-800;
 }
+
+
+/* TYPOGRAPHY */
 
 p {
   @apply text-lg;
@@ -33,9 +30,36 @@ p {
   }
 }
 
+/* HEADER */
+.lang_active::after {
+  content: " ";
+  bottom: -12px;
+  border-radius: 50%;
+  left: 6px;
+  height: 8px;
+  width: 8px;
+  @apply bg-primary absolute;
+}
+
 
 /* ABOUT SECTION */
 
 .list li svg {
   @apply inline text-gray-500 mr-2;
+}
+
+
+/* DARK SETTINGS */
+
+@screen dark {
+  .lang_active::after {
+    @apply bg-secondary;
+  }
+  .dark {
+    @apply text-secondary;
+  }
+  
+  .dark:hover {
+    @apply text-secondary_light;
+  }
 }

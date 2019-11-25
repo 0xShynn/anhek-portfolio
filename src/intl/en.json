@@ -4,21 +4,21 @@
   "author": "@wiziple",
   "nav": {
     "work": "Work",
-    "about": "About"
+    "about": "About",
+    "contact": "Contact"
   },
-  "job_design": "Visual Designer",
-  "job_dev" : "Junior Front-End Developer",
-  "job_description" : "I enjoy crafting meaningful and intuitive solutions with pixels and code.",
-  "footer_info" : "Designed and built by",
-  "welcome": "Welcome to your new Gatsby site.",
-  "title_page2": "Page two",
-  "hello_page2": "Hi from the second page",
-  "go_page2": "Go to page 2",
-  "build": "Now go build something great.",
-  "welcome_page2": "Welcome to page 2",
-  "go_back": "Go back to the homepage",
+  "hero": {
+    "job_design": "Visual Designer",
+    "job_dev" : "Junior Front-End Developer",
+    "job_description" : "I enjoy crafting meaningful and intuitive solutions with pixels and code."
+  },
+  "footer": {
+    "info": "Designed and built by",
+    "powered": "Powered by",
+    "back_to_top": "Back to top"
+  },
   "notfound": {
-    "header": "NOT FOUND",
+    "header": "Error 404",
     "description": "You just hit a route that doesn't exist... the sadness."
   }
 }

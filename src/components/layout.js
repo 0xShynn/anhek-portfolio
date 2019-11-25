@@ -17,7 +17,7 @@ const Layout = ({ children, intl }) => {
   return (
     <>
       <Header siteTitle={intl.formatMessage({ id: "title" })} />
-      <div className="mx-auto">
+      <div className="mx-auto bg-white dark:bg-gray-900">
         <main>{children}</main>
         <Footer/>
       </div>

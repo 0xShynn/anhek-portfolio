@@ -27,9 +27,9 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, tags_
         <div className="info py-3 mt-2 flex justify-between items-end">
           <div>
             <div className="align-middle">
-              <a href={url} className="link text-primary hover:text-tertiary dark:text-secondary_dark inline-block mb-1 font-bold text-2xl md:text-2xl dark:hover:text-secondary_dark">
+              <a href={url} className="light dark inline-block mb-1 font-bold text-2xl md:text-2xl">
                 {(lang === 'fr' ? (`${title_fr}`) : (`${title}`))}
-                <FaExternalLinkAlt className="react-icons inline mb-2 ml-1"/>
+                <FaExternalLinkAlt className="react-icons inline mb-2 ml-2"/>
               </a>
             </div>
             <p className="text-gray-700 dark:text-gray-500 mb-4 block">
