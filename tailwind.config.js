@@ -16,7 +16,10 @@ module.exports = {
       },
       screens: {
         dark: { raw: '(prefers-color-scheme: dark)' }
-      },      
+      },
+      letterSpacing: {
+        widy: '0.010em',
+      },   
     }
   },
   variants: {},
