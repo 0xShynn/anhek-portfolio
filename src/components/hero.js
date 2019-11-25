@@ -1,17 +1,15 @@
 import React from 'react';
 
-import nenderoid from '../svg/anhek-nenderoid.svg'
-import nenderoiddark from '../svg/anhek-nenderoid-dark.svg'
 import Social from './social';
 import { FormattedMessage, injectIntl } from 'react-intl';
+import Nenderoidos from './nenderoidos';
 
 
 const Hero = () => {
   return ( 
     <section className="flex flex-wrap max-w-md px-12 pt-20 pb-20 mx-auto sm:max-w-xl md:max-w-4xl md:py-20 lg:py-40">
       <div className="w-full md:w-1/3 flex justify-center items-center">
-        <img src={nenderoid} className="w-40 dark:hidden md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version" />
-        <img src={nenderoiddark} className="w-40 dark:inline hidden md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version" />
+        <Nenderoidos className="w-40 md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version"/>
       </div>
       <div className="md:w-2/3 flex items-center mt-4 md:mt-0 md:pl-3">
         <div className="flex flex-col items-center text-primary dark:text-secondary md:items-start">

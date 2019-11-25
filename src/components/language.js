@@ -8,13 +8,13 @@ const languageName = {
 
 const Language = () => {
   return (
-    <div className="mx-3 sm:mx-4 flex justify-between w-12">
+    <div className="mx-3 sm:mx-4 md:mr-6 lg:mx-6 flex justify-between">
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) =>
           languages.map(language => (
             <button 
               className={
-                "cursor-pointer inline " + 
+                "cursor-pointer px-2 inline-block " + 
                 (currentLocale === language ? 
                   `lang_active relative text-primary dark:text-secondary` : `lang_inactive text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white`) }
               key={language} 

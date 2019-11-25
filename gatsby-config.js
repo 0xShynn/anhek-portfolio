@@ -13,6 +13,7 @@ module.exports = {
         svgoConfig: {
           removeViewBox: true, // remove viewBox when possible (default)
           cleanupIDs: true,    // remove unused IDs and minify remaining IDs (default)
+          removeDimensions: true,
         },
       },
     },
