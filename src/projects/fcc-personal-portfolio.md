@@ -1,9 +1,9 @@
 ---
-title: "Personal Portfolio"
-title_fr: "Personal Portfolio"
-order: 7
-description: "Fake product landing page I realised for the 'Responsive Web Design' certification on freeCodeCamp"
-description_fr: "Fake product landing page I realised for the 'Responsive Web Design' certification on freeCodeCamp"
+title: "Portfolio Example"
+title_fr: "Example de Portfolio"
+order: 6
+description: "One page portfolio challenge designed to obtain the 'Responsive Web Design' certification on freeCodeCamp"
+description_fr: "Défi de création de portfolio 'One Page' designé pour obtenir la certification 'Responsive Web Design' sur freeCodeCamp"
 featuredImage: ../images/fcc-personal-portfolio.jpg
 url: "https://codepen.io/anhek/debug/JjPWeqx"
 tags: ["webdesign", "html", "scss"]

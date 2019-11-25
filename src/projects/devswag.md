@@ -1,9 +1,9 @@
 ---
 title: "devSwag"
-title_fr: "devSwag FR"
+title_fr: "devSwag"
 order: 1
-description: "A redesign contribution I did during the Hacktoberfest 2019 for the devSwag open source project on GitHub"
-description_fr: "Une contribution que j'ai réalisé durant le Hacktoberfest 2019 pour le projet open source devSwag sur GitHub"
+description: "Graphical redesign contribution I made for an open source project during the Hacktoberfest 2019, as a Pull Request on GitHub."
+description_fr: "Contribution de refonte graphique que j'ai réalisé lors du Hacktoberfest 2019, en tant que Pull Request sur GitHub."
 featuredImage: ../images/dev-swag.png
 url: "https://devswag.io"
 tags: ["redesign", "html", "scss", "gulp", "git"]

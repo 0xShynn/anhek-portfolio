@@ -1,9 +1,9 @@
 ---
-title: "Tribute Page"
-title_fr: "Page hommage"
+title: "Tribute Page for Tupac Shakur"
+title_fr: "Page Hommage pour Tupac Shakur"
 order: 8
-description: "Fake product landing page I realised for the 'Responsive Web Design' certification on freeCodeCamp"
-description_fr: "Fake product landing page I realised for the 'Responsive Web Design' certification on freeCodeCamp"
+description: "HTML/SCSS Project created for the 'Responsive Web Design' certification on freeCodeCamp."
+description_fr: "Projet HTML/SCSS réalisé pour la certification 'Responsive Web Design' sur freeCodeCamp."
 featuredImage: ../images/fcc-tribute-page.jpg
 url: "https://codepen.io/anhek/debug/ZEzeRWz"
 tags: ["webdesign", "html", "scss"]

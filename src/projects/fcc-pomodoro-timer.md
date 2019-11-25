@@ -2,10 +2,10 @@
 title: "Pomodoro Timer"
 title_fr: "Pomodoro Timer"
 order: 3
-description: "Project I created for the 'Front-End Librairies' certification on freeCodeCamp"
-description_fr: "Project I created for the 'Front-End Librairies' certification on freeCodeCamp"
+description: "React app created to obtain the 'Front-End Librairies' certification on freeCodeCamp."
+description_fr: "Application React créée pour obtenir le certificat 'Front-End Librairies' sur freeCodeCamp."
 featuredImage: ../images/fcc-pomodoro-timer.png
 url: "https://codepen.io/anhek/debug/RwbzgLq"
-tags: ["html", "scss", "javascript", "react"]
-tags_fr: ["html", "scss", "javascript", "react"]
+tags: ["design", "html", "scss", "javascript", "react"]
+tags_fr: ["design", "html", "scss", "javascript", "react"]
 ---

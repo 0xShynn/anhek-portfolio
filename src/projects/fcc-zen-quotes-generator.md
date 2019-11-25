@@ -1,9 +1,9 @@
 ---
 title: "Zen Quotes Generator"
 title_fr: "Générateur de citations Zen"
-order: 6
-description: "Fake product landing page I realised for the 'Responsive Web Design' certification on freeCodeCamp"
-description_fr: "Fake product landing page I realised for the 'Responsive Web Design' certification on freeCodeCamp"
+order: 5
+description: "App created using jQuery for the 'Front End Libraries Projects' certification on freeCodeCamp."
+description_fr: "Application réalisé en HTML, SCSS et jQuery pour la certification 'Front End Libraries Projects' sur freeCodeCamp."
 featuredImage: ../images/fcc-zen-quotes-generator.jpg
 url: "https://codepen.io/anhek/debug/WNedMKR"
 tags: ["design", "html", "scss", "javascript", "jquery"]

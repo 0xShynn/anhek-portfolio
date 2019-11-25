@@ -32,7 +32,7 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, tags_
                 <FaExternalLinkAlt className="react-icons inline mb-2 ml-2"/>
               </a>
             </div>
-            <p className="text-gray-700 dark:text-gray-500 mb-4 block">
+            <p className="text-gray-700 dark:text-gray-300 mb-4 block">
               {(lang === 'fr' ? (`${description_fr}`) : (`${description}`))}
             </p>
             <div className="flex flex-wrap">{tagList}</div>
