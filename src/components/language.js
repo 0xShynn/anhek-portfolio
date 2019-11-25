@@ -8,20 +8,22 @@ const languageName = {
 
 const Language = () => {
   return (
-    <div className="mx-2 sm:mx-4 md:mr-6 lg:mx-6 flex justify-between">
+    <div className="ml-2 sm:ml-4 md:ml-4 lg:ml-5 flex justify-between">
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) =>
           languages.map(language => (
-            <button 
-              className={
-                "cursor-pointer px-2 inline-block " + 
-                (currentLocale === language ? 
-                  `lang_active relative text-primary dark:text-secondary` : `lang_inactive text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white`) }
-              key={language} 
-              onClick={() => changeLocale(language)}
-            >
-              {languageName[language]}
-            </button>
+            <div className="lang" key={language}>
+              <button 
+                className={
+                  "cursor-pointer inline-block " + 
+                  (currentLocale === language ? 
+                    `lang_active relative text-primary dark:text-secondary` : `lang_inactive text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white`) }
+                onClick={() => changeLocale(language)}
+              >
+                {languageName[language]}
+              </button>
+              <span className="separator text-gray-600 text-sm mx-2 align-top">/</span>
+            </div>
           ))
         }
       </IntlContextConsumer>
