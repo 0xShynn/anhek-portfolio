@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="md:w-2/3 flex items-center mt-6 md:mt-0 md:pl-3 lg:pl-6">
         <div className="flex flex-col items-center text-primary dark:text-secondary md:items-start">
-          <h2 className="mb-2 font-body text-xl text-gray-800 md:text-2xl dark:text-secondary_light">Antonin Nhek</h2>
+          <h1 className="mb-2 font-body text-xl text-gray-800 md:text-2xl dark:text-secondary_light">Antonin Nhek</h1>
           <h2 className="mb-4 text-2xl font-bold leading-snug text-center md:text-left sm:text-3xl md:text-4xl">
             <FormattedMessage id="hero.job_design" /> &<br/> <FormattedMessage id="hero.job_dev" />
           </h2>

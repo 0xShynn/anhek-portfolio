@@ -25,6 +25,7 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.8.0",
+    "react-obfuscate": "^3.6.2",
     "typeface-fira-sans": "0.0.75",
     "typeface-roboto-mono": "0.0.75",
     "typeface-work-sans": "0.0.72"
