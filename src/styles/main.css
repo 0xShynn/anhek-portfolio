@@ -5,12 +5,16 @@
 
 /* LINKS */
 
+body {
+  @apply font-body;
+}
+
 a {
   transition: all .3s;
 }
 
-a, p, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  @apply tracking-widy;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  @apply font-header tracking-widy;
 }
 
 .light {
@@ -25,7 +29,7 @@ a, p, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 /* TYPOGRAPHY */
 
 p {
-  @apply text-lg;
+  @apply text-lg font-body tracking-widy;
 }
 
 

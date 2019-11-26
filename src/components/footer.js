@@ -1,7 +1,7 @@
 import React from 'react';
 import Social from './social';
 import { FormattedMessage, injectIntl } from 'react-intl';
-import { MdKeyboardArrowUp } from "react-icons/md"
+import { IoIosArrowUp } from "react-icons/io"
 import { TiHeart } from "react-icons/ti"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="flex justify-center mt-8">
         <AnchorLink href="#top" className="light dark">
           <FormattedMessage id="footer.back_to_top" />{` `}
-          <MdKeyboardArrowUp className="inline text-2xl align-middle"/>
+          <IoIosArrowUp className="inline text-xl mb-1 align-middle"/>
         </AnchorLink>
       </div>
     </footer>

@@ -6,10 +6,10 @@ const About = () => {
   return (
     <section id="about" className="mx-auto px-6 py-12 max-w-md sm:max-w-lg md:max-w-2xl md:py-20 lg:py-32">
       <div className="text-gray-800 dark:text-white">
-        <h3 className="text-4xl mb-2 dark:text-secondary">
+        <h3 className="text-3xl mb-2 dark:text-secondary">
           <FormattedMessage id="about.title" />
         </h3>
-        <h4 className="intro font-bold text-2xl mb-10">
+        <h4 className="font-bold text-2xl md:text-3xl mb-10">
           <FormattedMessage id="about.intro" />
         </h4>
         <p className="mb-10">
