@@ -1,6 +1,6 @@
 ---
-title: "Tribute Page for Tupac Shakur"
-title_fr: "Page Hommage pour Tupac Shakur"
+title: "Tribute Page : Tupac Shakur"
+title_fr: "Page Hommage : Tupac Shakur"
 order: 8
 description: "HTML/SCSS Project created for the 'Responsive Web Design' certification on freeCodeCamp."
 description_fr: "Projet HTML/SCSS réalisé pour la certification 'Responsive Web Design' sur freeCodeCamp."

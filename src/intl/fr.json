@@ -4,13 +4,32 @@
   "author": "@anhek",
   "nav": {
     "work": "Projets",
-    "about": "À propos",
+    "about": "À Propos",
     "contact": "Contact"
   },
   "hero": {
     "job_design": "Designer Graphique",
     "job_dev" : "Développeur Front-End Junior",
     "job_description" : "J'aime concevoir des applications cohérentes et intuitives grâce avec des pixels et du code."
+  },
+  "about": {
+    "title": "À Propos" ,
+    "intro": "Designer Graphique & Développeur Front-End Junior",
+    "text1": "I’m a graphic designer based in Lyon, France. I moved into development and my daily play field consists of html, scss, javascript and react. I like to learn new things everyday, challenge myself and help others.",
+    "text2": "I love hip-hop culture, beyond meat burgers, last.fm and spotify. I do street-workout, meditation and self-reflection.",
+    "text3": "I’m currently looking for a junior front-end developer position. You can find me on twitter, linkedin, github and codepen.",
+    "skills": {
+      "1": "Graphic Design",
+      "2": "Communication",
+      "3": "Empathy",
+      "4": "Knowledge",
+      "5": "Funny",
+      "6": "Ethics",
+      "7": "Gratitude",
+      "8": "Peace of Mind",
+      "9": "Kind",
+      "10": "Enthusiast"
+    }
   },
   "footer": {
     "socialconnect": "Réseaux sociaux",
