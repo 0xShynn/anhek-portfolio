@@ -22,7 +22,7 @@ const Language = () => {
               >
                 {languageName[language]}
               </button>
-              <span className="separator text-gray-600 text-sm mx-2 align-top">/</span>
+              <span className="separator text-gray-500 mx-2 align-baseline">/</span>
             </div>
           ))
         }

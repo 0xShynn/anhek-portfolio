@@ -8,7 +8,9 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Footer = () => {
   return (
     <footer className="px-10 py-20 text-center border-t border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-900">
-      <h3 className="text-xl font-bold dark:text-white"><FormattedMessage id="footer.socialconnect" /></h3>
+      <h3 className="text-xl font-semibold dark:text-white">
+        <FormattedMessage id="footer.socialconnect" />
+      </h3>
       <div className="flex justify-center py-5 mb-4">
         <Social value="light dark"/>
       </div>

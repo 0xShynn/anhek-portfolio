@@ -10,14 +10,17 @@
   "hero": {
     "job_design": "Designer Graphique",
     "job_dev" : "Développeur Front-End",
-    "job_description" : "J'aime concevoir des applications cohérentes et intuitives grâce avec des pixels et du code."
+    "job_description" : "J'aime concevoir des solutions numériques cohérentes, accessibles et intuitives grâce aux pixels et au code."
   },
   "about": {
-    "title": "À Propos" ,
-    "intro": "Designer Graphique & Développeur Front-End Junior",
-    "text1": "I’m a graphic designer based in Lyon, France. I moved into development and my daily play field consists of html, scss, javascript and react. I like to learn new things everyday, challenge myself and help others.",
-    "text2": "I love hip-hop culture, beyond meat burgers, last.fm and spotify. I do street-workout, meditation and self-reflection.",
-    "text3": "I’m currently looking for a junior front-end developer position. You can find me on twitter, linkedin, github and codepen.",
+    "title": "À Propos",
+    "intro": "Bonjour ! Je m'appelle Antonin Nhek, je suis un designer graphique basé à Lyon. Après des années de graphisme et une période d'absence dans le domaine de la communication, j'ai décidé de débuter des études en programmation depuis janvier 2019.",
+    "text1": "J'ai commencé avec le bootcamp 'The Hacking Project' où j'ai appris les concepts de base de la programmation, du développement back-end, la programmation en binôme, l'apprentissage en pair-programming, Ruby, Rails, Git et les manipulations de bases de données SQL. C'était également l'environnement idéal pour mettre en place une dynamique d'apprentissage quotidienne, de développer mes compétences en communication et de travail en équipe.",
+    "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS / SCSS, JavaScript, React et Gatsby. J'ai suivi des cours sur Udemy, freeCodeCamp, via le site de Mosh Hamedani, Wes Bos et d'autres glanés sur le Web.",
+    "text3": "J'ai participé au défi #100DaysOfCode sur Twitter qui consistait à publier quotidiennement nos progrès en développement web. Cela m'a ouvert à une communauté dans le monde entier. J'ai également participé au Hacktoberfest 2019 et c'était la première fois que je contribuais à des projets open source.",
+    "text4": "Outre le domaine de la tech, je suis immergé dans la culture Hip-Hop depuis tout petit, j'adore les burgers Beyond Meat, Last.fm, Pinterest et Spotify. Je fais de la calisthénie, du break dance, de l'escalade, j'aime jouer à la Switch et aux jeux de cartes avec mes amis.",
+    "text5": "Je suis donc à la recherche d'un poste en tant que développeur front-end junior. Je serais heureux d'apporter mes compétences et ma vision dans votre équipe.",
+    "dropamail": "Pour me contacter :",
     "skills": {
       "1": "Graphic Design",
       "2": "Communication",
@@ -36,6 +39,12 @@
     "info": "Réalisé avec",
     "powered": "Propulsé par",
     "back_to_top": "Retour en haut de page"
+  },
+  "social": {
+    "twitter": "Suivez-moi sur Twitter",
+    "github": "Check my work on GitHub",
+    "linkedin": "Connectons-nous sur LinkedIn",
+    "email": "Envoyez-moi un mail :)"
   },
   "notfound": {
     "header": "Erreur 404",

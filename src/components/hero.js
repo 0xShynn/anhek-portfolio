@@ -7,7 +7,7 @@ import Nenderoidos from './nenderoidos';
 
 const Hero = () => {
   return ( 
-    <section className="flex flex-wrap max-w-md px-12 pt-20 pb-20 mx-auto sm:max-w-xl md:max-w-4xl md:py-20 lg:py-40">
+    <section className="flex flex-wrap max-w-md px-12 pt-20 pb-20 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl md:py-20 lg:py-40">
       <div className="w-full md:w-1/3 flex justify-center items-center">
         <Nenderoidos className="w-40 md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version"/>
       </div>

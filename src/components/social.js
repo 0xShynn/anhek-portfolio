@@ -1,7 +1,5 @@
 import React from 'react';
-import { FaGithubAlt, FaLinkedinIn, FaTwitter } from "react-icons/fa"
-import { MdEmail } from "react-icons/md"
-import Obfuscate from "react-obfuscate"
+import { FaGithubAlt, FaLinkedinIn, FaTwitter, FaCodepen } from "react-icons/fa"
 
 const Social = ({value}) => {  
   return (
@@ -14,12 +12,10 @@ const Social = ({value}) => {
           <a className={value} href="http://github.com/anhek" title="Check my work on GitHub"><FaGithubAlt/></a>
         </li>
         <li>
-          <a className={value} href="http://linkedin.com/anhek" title="Let's connect on LinkedIn"><FaLinkedinIn/></a>
+          <a className={value} href="https://codepen.io/anhek" title="Let's connect on LinkedIn"><FaCodepen/></a>
         </li>
         <li>
-          <Obfuscate className={value} title="Drop me a message ! :)" email="hello@anhek.dev">
-            <MdEmail/>
-          </Obfuscate>
+          <a className={value} href="http://linkedin.com/anhek" title="Let's connect on LinkedIn"><FaLinkedinIn/></a>
         </li>
       </ul>
     </div>

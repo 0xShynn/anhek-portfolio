@@ -1,68 +1,36 @@
 import React from 'react';
-import { MdKeyboardArrowRight } from 'react-icons/md'
 import { FormattedMessage } from 'react-intl';
+import Portrait from './portrait';
+import Obfuscate from "react-obfuscate"
+import { GoMail } from "react-icons/go"
+
 
 const About = () => {
   return (
-    <section id="about" className="mx-auto px-6 py-12 max-w-md sm:max-w-lg md:max-w-2xl md:py-20 lg:py-32">
+    <section id="about" className="flex flex-col mx-auto px-6 py-12 max-w-md sm:max-w-lg md:max-w-2xl sm:py-20 md:py-24 lg:py-32">
+      <div className="mx-auto w-48 md:w-56 mb-6 md:mb-8 rounded-full overflow-hidden">
+        <Portrait/>
+      </div>    
       <div className="text-gray-800 dark:text-white">
-        <h3 className="text-3xl mb-2 dark:text-secondary">
-          <FormattedMessage id="about.title" />
-        </h3>
-        <h4 className="font-bold text-2xl md:text-3xl mb-10">
-          <FormattedMessage id="about.intro" />
-        </h4>
-        <p className="mb-10">
+        <FormattedMessage id="about.title">
+          {txt => <p className="text-2xl md:text-3xl text-gray-600 dark:text-secondary_light">{txt}</p>}
+        </FormattedMessage>
+        <FormattedMessage id="about.intro">
+          {txt => <p className="py-4 sm:py-8 md:py-10 text-xl font-semibold leading-relaxed">{txt}</p>}
+        </FormattedMessage>
+        <p className="mb-10 md:mb-16">
           <FormattedMessage id="about.text1" /><br /><br />
           <FormattedMessage id="about.text2" /><br /><br />
-          <FormattedMessage id="about.text3" />
+          {/* <FormattedMessage id="about.text3" /><br /><br /> */}
+          <FormattedMessage id="about.text4" />
         </p>
-        <div className="flex flex-col sm:flex-row">
-          <ul className="text-lg mb-4 mr-10 list">
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.1" />
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.2" />
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.3" />            
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.4" />
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.5" />
-            </li>
-          </ul>
-          <ul className="text-lg list">
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.6" />
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.7" />
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.8" />
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.9" />
-            </li>
-            <li>
-              <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.skills.10" />
-            </li>
-          </ul>          
-        </div>       
+        <p className="text-lg md:text-2xl mb-8 md:mb-16 p-4 md:p-8 bg-gray-200 dark:bg-gray-800 dark:text-white rounded-lg">
+          <FormattedMessage id="about.text5" />
+        </p>
+        <div className="text-center">
+          <p><FormattedMessage id="about.dropamail" /></p>
+          <Obfuscate email="hello@anhek.dev" className="text-center text-2xl text-primary dark:text-secondary"/>
+        </div>
       </div>
     </section>
   );
