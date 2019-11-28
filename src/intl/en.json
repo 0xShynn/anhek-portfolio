@@ -10,17 +10,17 @@
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Front-End Developer",
-    "job_description" : "I enjoy crafting coherent, accessible and intuitive digital solutions with pixels and code."
+    "job_description" : "I enjoy crafting coherent, accessible and intuitive digital projects with pixels and code."
   },
   "about": {
     "title": "About Me",
-    "intro": "Hello ! My name is Antonin Nhek, I’m a visual designer based in Lyon, France. After years of doing graphic design and a period away from the communication field, I decided to start a programming journey in January 2019.",
-    "text1": "I began with 'The Hacking Project' bootcamp where I learned core programmation concepts, back-end development basics, pair-programming, peer-learning, Ruby, Rails, Git and SQL databases manipulations. It was also the perfect environment to set up a daily learning dynamic, to grow in terms of communication skills and team work.",
-    "text2": "As I love design as much as programmation, taking the front-end development path was naturally the right choice for me. So I continued my programming journey as self-taught with HTML, CSS/SCSS, JavaScript, React, GraphQL and Gatsby. I took courses from Udemy, freeCodeCamp, Design+Code, Mosh Hamedani, Wes Bos and many others around the web.",
+    "intro": "Hello ! My name is Antonin Nhek, I am a Graphic Designer based in Lyon, France. After years of graphics and a period of absence in the communication field, I made a professional reconversion to turn to programming in January 2019.",
+    "text1": "I started with the bootcamp 'The Hacking Project' where I learned the core concepts of programming and back-end development, algorithmics, peer-programming and peer-learning. I practiced the Ruby language, used Rails framework and manipulated SQL databases. It was also the ideal environment for setting up a daily learning dynamic, developing my communication and teamwork skills.",
+    "text2": "Being as much attracted by design as programming, front-end development was naturally the way to go for me. So I continued my self-taught programming journey with HTML, CSS/SCSS, JavaScript, React and Gatsby. I took classes on Udemy, freeCodeCamp, of Mosh Hamedani, Wes Bos and others gleaned on the Web.",
     "text3": "I did the #100DaysOfCode challenge on Twitter which consisted in publishing your daily development progress. It has opened me to a world wide supportive community. I also participated to Hacktoberfest 2019 which was the first time I contributed to open source projects.",
-    "text4": "Apart from technology, I'm immersed in Hip-Hop culture since kid, I love Beyond Meat burgers, Last.fm, Pinterest and Spotify. I do calisthenics, break dance, rock climbing and I like playing Switch and cards games with my friends.",
-    "text5": "I'm looking for an junior front-end developer position. I'd be happy to bring my skills and vision in your team. I'm willing to relocate in Europe.",
-    "dropamail": "To get in touch :",
+    "text4": "In addition to the field of tech, I'm immersed in the culture Hip-Hop since my teens, I love Beyond Meat burgers, Last.fm, Pinterest and Spotify. I do calisthenics, break-dance, climbing, I like to play Nintendo Switch and card games with my friends.",
+    "text5": "I'm currently looking for an junior front-end developer position. I'd be happy to bring my skills and vision in your team. I'm willing to relocate in Europe.",
+    "dropamail": "To get in touch",
     "skills": {
       "1": "Graphic Design",
       "2": "Communication",
