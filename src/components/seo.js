@@ -8,24 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { useIntl } from "gatsby-plugin-intl"
 
-function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
 
-  const metaDescription = description || site.siteMetadata.description
+function SEO({ meta, lang, title }) {
+
+  const intl = useIntl();
 
   return (
     <Helmet
@@ -33,19 +21,19 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${intl.formatMessage({ id: "title" })}`}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: `${intl.formatMessage({ id: "description" })}`,
         },
         {
           property: `og:title`,
-          content: title,
+          content: `${intl.formatMessage({ id: "title" })}`,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: `${intl.formatMessage({ id: "description" })}`,
         },
         {
           property: `og:type`,
@@ -57,15 +45,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: `${intl.formatMessage({ id: "author" })}`,
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${intl.formatMessage({ id: "title" })}`,
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content:`${intl.formatMessage({ id: "description" })}`,
         },
       ].concat(meta)}
     />

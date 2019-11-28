@@ -1,7 +1,11 @@
 {
-  "title": "Gatsby Francais",
-  "description": "DEDEDJEIDOED off your next, great Gatsby project with this default-starter-intl. This barebones starter ships with the main Gatsby configuration files you might need.",
-  "author": "@anhek",
+  "title": "Antonin Nhek • Designer Graphique & Développeur Front-End",
+  "description": "Je conçois des projets digitaux cohérents, accessibles et intuitifs via les pixels et le code.",
+  "author": "@anhek_",
+  "pages": {
+    "index": "Accueil",
+    "404": "Erreur 404"
+  },
   "nav": {
     "work": "Projets",
     "about": "À Propos",
@@ -10,14 +14,14 @@
   "hero": {
     "job_design": "Designer Graphique",
     "job_dev" : "Développeur Front-End",
-    "job_description" : "J'aime concevoir des projets digitaux cohérents, accessibles et intuitifs grâce aux pixels et au code."
+    "job_description" : "J'aime concevoir des projets digitaux cohérents, accessibles et intuitifs via les pixels et le code."
   },
   "about": {
     "title": "À Propos",
     "intro": "Bonjour ! Je m'appelle Antonin Nhek. Après des années de graphisme et une période d'absence dans le domaine de la communication, j'ai effectué une reconversion professionnelle pour être développeur web en janvier 2019.",
     "text1": "J'ai débuté avec le bootcamp 'The Hacking Project' où j'ai appris les concepts de base de la programmation et du développement back-end, l'algorithmie, le pair-programming et peer-learning. J'ai réalisé des projets variés en JavaScript, Ruby et Rails. C'était également l'environnement idéal pour mettre en place une dynamique d'apprentissage au quotidien, développer mes compétences en communication et en travail d'équipe.",
     "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS/SCSS, JavaScript, la librairie React et des frameworks tel que GatsbyJS. J'ai suivi des cours sur le site de freeCodeCamp, Udemy, Mosh Hamedani, Wes Bos et d'autres glanés sur le Web.",
-    "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence, j'adore les burgers Beyond Meat, Last.fm, Pinterest et Spotify. Je fais de la calisthénie, du break-dance, de l'escalade et j'aime jouer à la Switch et aux jeux de cartes avec mes amis.",
+    "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence. J'adore Spotify, Last.fm, Pinterest et les burgers Beyond Meat. Je fais de la calisthénie, du break-dance, de l'escalade et j'aime jouer à la Switch et aux jeux de cartes avec mes amis.",
     "text4": "Je suis actuellement à la recherche d'un poste en tant que développeur front-end junior. Je serais ravi d'intégrer une équipe à taille humaine pour apporter mes compétences et ma vision.",
     "dropamail": "Pour me contacter",
     "interests": {
@@ -51,6 +55,7 @@
   },
   "notfound": {
     "header": "Erreur 404",
-    "description": "La page que vous recherchez n'existe pas :("
+    "description": "Malheureusement la page que vous recherchez n'existe pas :(",
+    "backtohome": "Retourner à l'accueil"
   }
 }

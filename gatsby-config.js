@@ -1,9 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: `Antonin Nhek • Visual Designer & Front-End Developer`,
-    description: `I'm Antonin Nhek, a visual designer and junior front-end developer based in Lyon (France). I enjoy crafting meaningful and intuitive solutions.`,
-    author: `@anhek`,
-  },
   plugins: [
     {
       resolve: 'gatsby-plugin-svgr',

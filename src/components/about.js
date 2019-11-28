@@ -2,13 +2,12 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import Portrait from './portrait';
 import Obfuscate from "react-obfuscate"
-import { FiSend } from "react-icons/fi"
 import { MdKeyboardArrowRight } from "react-icons/md"
 
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col mx-auto px-6 py-12 max-w-md sm:max-w-lg md:max-w-2xl sm:py-20 md:py-24 lg:py-32">
+    <section id="about" className="flex flex-col mx-auto px-6 py-12 max-w-md sm:max-w-2xl sm:py-20 md:py-24 lg:py-32">
       <div className="mx-auto w-48 md:w-56 mb-6 md:mb-8 rounded-full overflow-hidden">
         <Portrait/>
       </div>    
@@ -16,7 +15,7 @@ const About = () => {
         <p className="text-2xl mb-6 md:text-3xl text-gray-600 dark:text-secondary_light">
           <FormattedMessage id="about.title" />
         </p>
-        <p className="text-xl md:text-2xl font-header font-bold leading-snug">
+        <p className="text-xl sm:text-2xl font-header font-bold leading-snug">
           <FormattedMessage id="about.intro" /><br /><br /><br />
         </p>
         <p className="">

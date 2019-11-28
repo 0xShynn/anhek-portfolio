@@ -55,6 +55,18 @@ p {
 }
 
 
+/* 404 PAGE */
+
+#triangle-code{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 17px solid #e2e8f0;
+  border-right : 10px solid transparent;
+  border-left : 10px solid transparent;
+ }
+
+
 /* DARK SETTINGS */
 
 @screen dark {
@@ -67,4 +79,7 @@ p {
   .bgNenderoid {
     fill: #C7FF84;
   }
+  #triangle-code{
+    border-top : 17px solid white;
+   }
 }

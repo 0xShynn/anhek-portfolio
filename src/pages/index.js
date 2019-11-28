@@ -13,7 +13,7 @@ const IndexPage = () => {
     <Layout>
       <SEO
         lang={intl.locale}
-        title={intl.formatMessage({ id: "title" })}
+        title={intl.formatMessage({ id: "pages.index" })}
         keywords={[`gatsby`, `application`, `react`]}
       />
       <div className="bg-white dark:bg-gray-900 border-b dark:border-gray-800">
