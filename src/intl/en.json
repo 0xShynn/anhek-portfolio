@@ -55,7 +55,7 @@
   },
   "notfound": {
     "header": "Error 404",
-    "description": "You just hit a route that doesn't exist... the sadness.",
-    "backtohome": "Back to Home"
+    "description": "Unfortunately, the page you are looking for does not exist :(",
+    "backtohome": "Back to home"
   }
 }

@@ -21,7 +21,8 @@ function SEO({ meta, lang, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${intl.formatMessage({ id: "title" })}`}
+      // titleTemplate={`%s | ${intl.formatMessage({ id: "title" })}`}
+      titleTemplate={`${intl.formatMessage({ id: "title" })}`}
       meta={[
         {
           name: `description`,

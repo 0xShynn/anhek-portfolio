@@ -51,7 +51,10 @@ module.exports = {
       },
       letterSpacing: {
         widy: '0.010em',
-      },   
+      },
+      fontSize: {
+        '1xl': '1.35rem',
+      },
     }
   },
   variants: {},

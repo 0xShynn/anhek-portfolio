@@ -20,10 +20,14 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, tags_
   const selectedDescription = (lang === 'fr' ? (`${description_fr}`) : (`${description}`));
 
   return (
-    <div className="px-6 mb-12 sm:mb-16 md:mb-20 lg:mb-32 w-full md:w-1/2" key={selectedTitle}>
+    <div className="px-6 md:px-3 lg:px-6 mb-12 sm:mb-16 md:mb-20 lg:mb-32 w-full md:w-1/2" key={selectedTitle}>
       <div className="text-gray-800 dark:text-white">
-        <a className="" href={url} title={selectedTitle}>
-          <Img fluid={img} className="rounded shadow-lg" alt={selectedTitle} />
+        <a href={url} title={selectedTitle}>
+          <Img 
+            fluid={img} 
+            className="rounded shadow-lg" 
+            alt={selectedTitle} 
+          />
         </a>
         <div className="info py-3 mt-2">
           <h4>

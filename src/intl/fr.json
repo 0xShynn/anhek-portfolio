@@ -14,7 +14,7 @@
   "hero": {
     "job_design": "Designer Graphique",
     "job_dev" : "Développeur Front-End",
-    "job_description" : "J'aime concevoir des projets digitaux cohérents, accessibles et intuitifs via les pixels et le code."
+    "job_description" : "J'aime concevoir des projets digitaux cohérents, accessibles et intuitifs grâce aux pixels & code."
   },
   "about": {
     "title": "À Propos",
@@ -55,7 +55,7 @@
   },
   "notfound": {
     "header": "Erreur 404",
-    "description": "Malheureusement la page que vous recherchez n'existe pas :(",
+    "description": "Malheureusement, la page que vous recherchez n'existe pas :(",
     "backtohome": "Retourner à l'accueil"
   }
 }
