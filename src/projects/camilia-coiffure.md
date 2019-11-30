@@ -1,7 +1,7 @@
 ---
 title: "Camilia Coiffure"
 title_fr: "Camilia Coiffure"
-order: 9
+order: 11
 description: "Visual identity, print creations and responsive website created with WordPress."
 description_fr: "Identité visuelle, créations print et site web responsive réalisé sous WordPress."
 featuredImage: ../images/camilia-coiffure.jpg

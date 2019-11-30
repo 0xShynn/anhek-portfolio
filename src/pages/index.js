@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const intl = useIntl()
+  
   return (
     <Layout>
       <SEO
@@ -16,10 +17,10 @@ const IndexPage = () => {
         title={intl.formatMessage({ id: "pages.index" })}
         keywords={[`gatsby`, `application`, `react`]}
       />
-      <div className="bg-white dark:bg-gray-900 border-b dark:border-gray-800">
+      <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
         <Hero/>
       </div>
-      <div className="bg-gray-100 dark:bg-gray-900 border-b dark:border-gray-800">
+      <div className="bg-gray-100 border-b dark:bg-gray-900 dark:border-gray-800">
         <Work/>
       </div>
       <div className="bg-white dark:bg-gray-900">

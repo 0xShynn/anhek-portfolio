@@ -1,11 +1,12 @@
 ---
 title: "devSwag"
 title_fr: "devSwag"
-order: 1
-description: "Graphical redesign contribution I made for an open source project during the Hacktoberfest 2019, as a Pull Request on GitHub."
-description_fr: "Contribution de refonte graphique que j'ai réalisé lors du Hacktoberfest 2019, en tant que Pull Request sur GitHub."
+order: 2
+description: "Website redesign contribution for the open source project called 'devSwag' during the Hacktoberfest 2019 (Pull Request on GitHub)."
+description_fr: "Contribution de redesign pour le projet open source 'devSwag' lors de la Hacktoberfest 2019 (Pull Request sur GitHub)."
 featuredImage: ../images/dev-swag.png
 url: "https://stoic-allen-ecacb4.netlify.com"
-tags: ["redesign", "html", "pug", "css", "styl", "gulp", "git"]
-tags_fr: ["redesign", "html", "pug", "css", "styl", "gulp", "git"]
+source_url: "https://github.com/anhek/swag-for-dev"
+tags: ["hacktoberfest 2019", "redesign", "pug", "styl", "gulp", "git"]
+tags_fr: ["hacktoberfest 2019", "redesign", "pug", "styl", "gulp", "git"]
 ---
