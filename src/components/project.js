@@ -2,6 +2,7 @@ import React from 'react';
 import Img from "gatsby-image"
 import { useIntl } from "gatsby-plugin-intl"
 import { IoIosCode, IoIosArrowRoundForward } from "react-icons/io"
+import { Link } from 'gatsby';
 
 const Projet = ({ title, title_fr, description, description_fr, img, tags, url, source_url }) => {
     
@@ -24,17 +25,31 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, url, 
     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-20 lg:mb-32" key={selectedTitle}>
       <div className="text-gray-800 dark:text-white">
         <a href={url} title={selectedTitle}>
-          <Img 
-            fluid={img} 
-            className="rounded shadow-lg" 
-            alt={selectedTitle} 
-          />
+          { url === '/graphic-design' ? (
+              <Link to={(lang) + "/graphic-design/"}>
+                <Img 
+                  fluid={img} 
+                  className="rounded shadow-lg" 
+                  alt={selectedTitle} 
+                />
+              </Link>
+            ) : (
+              <Img 
+                fluid={img} 
+                className="rounded shadow-lg" 
+                alt={selectedTitle} 
+              />
+            ) }
         </a>
         <div className="py-3 mt-2 info">
           <h4 className="mb-2 text-2xl font-bold align-text-top light dark font-header md:text-2xl">
-            <a href={url} className="">
-              {selectedTitle} <IoIosArrowRoundForward className="inline" />
-            </a>
+            { url === '/graphic-design' ? (
+              <Link to={(lang) + "/graphic-design/"}>{selectedTitle} <IoIosArrowRoundForward className="inline" /></Link>
+            ) : (
+              <a href={url}>
+                {selectedTitle} <IoIosArrowRoundForward className="inline" />
+              </a>
+            ) }
           </h4>
           <p className="block mb-5 text-gray-700 dark:text-white">
             {selectedDescription}{` `}
