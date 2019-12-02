@@ -4,12 +4,16 @@
   "author": "@anhek_",
   "pages": {
     "index": "Accueil",
+    "graphicdesign": "Design Graphique",
     "404": "Erreur 404"
   },
   "nav": {
     "work": "Projets",
     "about": "À Propos",
     "contact": "Contact"
+  },
+  "graphicdesign": {
+    "intro": "Sélection de mes travaux en tant que designer graphique."
   },
   "hero": {
     "job_design": "Designer Graphique",
@@ -55,7 +59,9 @@
   },
   "notfound": {
     "header": "Erreur 404",
-    "description": "Malheureusement, la page que vous recherchez n'existe pas :(",
-    "backtohome": "Retourner à l'accueil"
+    "description": "Malheureusement, la page que vous recherchez n'existe pas :("
+  },
+  "global": {
+    "backtohome": "Retour à l'Accueil"
   }
 }

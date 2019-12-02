@@ -9,14 +9,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import { injectIntl } from "react-intl"
 
-import Header from "./header"
 import "../styles/main.css"
 import Footer from "./footer"
 
-const Layout = ({ children, intl }) => {
+const Layout = ({ children }) => {
+  
   return (
     <>
-      <Header siteTitle={intl.formatMessage({ id: "title" })} />
       <div className="mx-auto bg-white dark:bg-gray-900">
         <main>{children}</main>
         <Footer/>

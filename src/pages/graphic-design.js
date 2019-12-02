@@ -1,26 +1,79 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useIntl } from "gatsby-plugin-intl"
+import HeaderSecondary from "../components/headerSecondary"
+import ProjectVisual from "../components/projectVisual"
+import { injectIntl, Link, useIntl, FormattedMessage } from "gatsby-plugin-intl"
+import { IoIosArrowRoundForward } from "react-icons/io"
 
-const SecondPage = () => {
-  const intl = useIntl();
-  const lang = intl.locale;
+
+const GraphicDesign = () => {  
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark(
+        filter: {fileAbsolutePath: {regex: "/(graphicdesign)/"}},
+        sort: {fields: frontmatter___order, order: ASC}) {
+        edges {
+          node {
+            id
+            frontmatter {
+              title
+              featuredImage {
+                childImageSharp {
+                  fluid(maxWidth: 1032) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }  
+  `)
   
+  let graphicDesignProjects = data.allMarkdownRemark.edges;
+  const intl = useIntl();
+    
   return (
     <Layout>
-      <SEO title="Graphic Design" />
-      <section className="px-3 pt-12 pb-0 mx-auto sm:px-6 sm:pt-16 md:max-w-4xl md:pt-20 lg:pt-32 lg:max-w-6xl">
-        <h1>Graphic Design</h1>
-        <div className="flex flex-wrap -mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3">
-          lol 
+      <SEO
+        lang={intl.locale}
+        title={intl.formatMessage({ id: "pages.graphicdesign" })}
+        keywords={[`developer`, `front-end developer`, `graphic designer`]}
+      />      
+      <HeaderSecondary/>
+      <header className="mx-5 my-12 text-center sm:my-20 sm:mx-32 lg:my-24">
+        <h1 className="text-2xl font-bold text-primary md:text-4xl dark:text-secondary font-header">
+          <FormattedMessage id="pages.graphicdesign"/>
+        </h1>
+        <h2 className="text-lg text-gray-800 md:text-xl font-body dark:text-white">
+          <FormattedMessage id="graphicdesign.intro"/>
+        </h2>
+      </header>
+      <section className="px-3 pt-10 pb-10 bg-gray-200 border-t sm:pt-12 md:pt-20 dark:border-gray-800 sm:px-6 dark:bg-gray-900">
+        <div className="flex flex-col mx-auto md:max-w-4xl lg:max-w-4xl">
+          {
+            graphicDesignProjects.map(({node}) => (
+              <ProjectVisual 
+                title={node.frontmatter.title}
+                img={node.frontmatter.featuredImage.childImageSharp.fluid}
+                key={node.id}
+              />
+            ))
+          }
         </div>
-        <Link to={(lang) + "/"}>Go back to the homepage</Link>
+        <div className="mb-12 text-center sm:mb-16 md:mb-20">
+          <Link to="/" className="text-xl md:text-2xl light dark">
+            <IoIosArrowRoundForward className="inline mb-1" />{` `}
+            <FormattedMessage id="global.backtohome" />
+          </Link>
+        </div>
       </section>
     </Layout>
   )
 }
 
-export default SecondPage
+export default injectIntl(GraphicDesign)

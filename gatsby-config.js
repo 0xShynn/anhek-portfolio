@@ -25,6 +25,20 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `graphicdesign`,
+        path: `${__dirname}/src/images/graphicdesign`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `development`,
+        path: `${__dirname}/src/images/development`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `projects`,
         path: `${__dirname}/src/projects`,
       },
@@ -35,7 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Antonin Nhek | Visual Designer & Front-End Developer",
-        short_name: "Antonin Nhek Portfolio",
+        short_name: "Antonin Nhek",
         start_url: "/",
         background_color: "#1a202c",
         theme_color: "#c7ff84",

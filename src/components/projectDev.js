@@ -1,10 +1,9 @@
 import React from 'react';
 import Img from "gatsby-image"
-import { useIntl } from "gatsby-plugin-intl"
+import { useIntl, injectIntl, Link } from "gatsby-plugin-intl"
 import { IoIosCode, IoIosArrowRoundForward } from "react-icons/io"
-import { Link } from 'gatsby';
 
-const Projet = ({ title, title_fr, description, description_fr, img, tags, url, source_url }) => {
+const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, url, source_url }) => {
 
   const tagList = tags.length ? (
     tags.map((tag) => {
@@ -24,7 +23,7 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, url, 
 
   const handleImageLink = (
     url === '/graphic-design' ? (
-      <Link to={(lang) + "/graphic-design/"}>
+      <Link to="/graphic-design">
         <Img
           fluid={img}
           className="rounded shadow-lg"
@@ -32,17 +31,19 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, url, 
         />
       </Link>
     ) : (
-      <Img
-        fluid={img}
-        className="rounded shadow-lg"
-        alt={selectedTitle}
-      />
+      <a href={url} title={selectedTitle}>
+        <Img
+          fluid={img}
+          className="rounded shadow-lg"
+          alt={selectedTitle}
+        />
+      </a>
     )
   );
 
   const handleTitleLink = (
     url === '/graphic-design' ? (
-      <Link to={(lang) + "/graphic-design/"}>
+      <Link to="/graphic-design">
         {selectedTitle} <IoIosArrowRoundForward className="inline" />
       </Link>
     ) : (
@@ -61,9 +62,7 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, url, 
   return (
     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-20 lg:mb-32" key={selectedTitle}>
       <div className="text-gray-800 dark:text-white">
-        <a href={url} title={selectedTitle}>
-          {handleImageLink}
-        </a>
+        {handleImageLink}
         <div className="py-3 mt-2 info">
           <h4 className="mb-2 text-2xl font-bold align-text-top light dark font-header md:text-2xl">
             {handleTitleLink}
@@ -79,4 +78,4 @@ const Projet = ({ title, title_fr, description, description_fr, img, tags, url, 
   );
 }
 
-export default Projet;
+export default injectIntl(ProjectDev)

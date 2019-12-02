@@ -4,12 +4,16 @@
   "author": "@anhek_",
   "pages": {
     "index": "Home",
+    "graphicdesign": "Graphic Design",
     "404": "Error 404"
   },
   "nav": {
     "work": "Work",
     "about": "About",
     "contact": "Contact"
+  },
+  "graphicdesign": {
+    "intro": "Selection of my work as a graphic designer"
   },
   "hero": {
     "job_design": "Visual Designer",
@@ -55,7 +59,9 @@
   },
   "notfound": {
     "header": "Error 404",
-    "description": "Unfortunately, the page you are looking for does not exist :(",
-    "backtohome": "Back to home"
+    "description": "Unfortunately, the page you are looking for does not exist :("
+  },
+  "global": {
+    "backtohome": "Back to Home"
   }
 }
