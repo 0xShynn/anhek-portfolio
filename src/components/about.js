@@ -7,15 +7,15 @@ import { MdKeyboardArrowRight } from "react-icons/md"
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col mx-auto px-6 sm:px-10 md:px-6 py-12 max-w-md sm:max-w-2xl sm:py-20 md:py-24 lg:py-32">
-      <div className="mx-auto w-48 md:w-56 mb-6 md:mb-8 rounded-full overflow-hidden">
+    <section id="about" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 md:px-6 sm:max-w-2xl sm:py-20 md:py-24 lg:py-32">
+      <div className="w-48 mx-auto mb-6 overflow-hidden rounded-full md:w-56 md:mb-8">
         <Portrait/>
       </div>    
       <div className="text-gray-800 dark:text-white">
-        <p className="text-2xl mb-6 md:text-3xl text-gray-600 dark:text-secondary_light">
+        <p className="mb-6 text-2xl text-gray-600 md:text-3xl dark:text-secondary_light">
           <FormattedMessage id="about.title" />
         </p>
-        <p className="text-1xl sm:text-2xl font-header font-bold leading-snug">
+        <p className="font-bold leading-snug text-1xl sm:text-2xl font-header">
           <FormattedMessage id="about.intro" /><br /><br /><br />
         </p>
         <p className="">
@@ -23,8 +23,8 @@ const About = () => {
           <FormattedMessage id="about.text2" /><br /><br /><br />
         </p>
         <div className="flex flex-col sm:flex-row">
-          <ul className="text-lg mr-10 list">
-            <li className="text-xl font-bold uppercase font-header text-gray-700 dark:text-secondary_light mb-4">
+          <ul className="mr-10 text-lg list">
+            <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary_light">
               <FormattedMessage id="about.interests.title" />
             </li>
             <li>
@@ -49,7 +49,7 @@ const About = () => {
             </li>
           </ul>
           <ul className="text-lg list">
-            <li className="text-xl font-bold uppercase font-header text-gray-700 dark:text-secondary_light mb-4">
+            <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary_light">
               <FormattedMessage id="about.personality.title" />
             </li>
             <li>
@@ -74,20 +74,20 @@ const About = () => {
             </li>
           </ul>  
         </div>
-        <br /><br /><br />
+        <br /><br />
         <p className="pb-10 md:pb-16">
           <FormattedMessage id="about.text3" />
         </p>
-        <p className="text-xl md:text-2xl dark:text-secondary_light border-t border-gray-400 dark:border-gray-700 pt-10 md:pt-16">
+        <p className="pt-10 text-xl border-t border-gray-400 md:text-2xl dark:text-secondary_light dark:border-gray-700 md:pt-16">
           <FormattedMessage id="about.text4" />
         </p>
         <br /><br />
         <div className="flex justify-center">
-          <div className="text-center py-3 px-6 md:py-4 md:px-8 rounded border border-gray-400 dark:border-gray-700 inline-block">
-            <p className="text-gray-700 dark:text-gray-300 text-base md:text-xl">
+          <div className="inline-block px-6 py-3 text-center border border-gray-400 rounded md:py-4 md:px-8 dark:border-gray-700">
+            <p className="text-base text-gray-700 dark:text-gray-300 md:text-xl">
               <FormattedMessage id="about.dropamail" />
             </p>
-            <Obfuscate email="hello@anhek.dev" className="text-center text-2xl md:text-3xl text-primary dark:text-secondary dark:hover:text-secondary_light"/>
+            <Obfuscate email="hello@anhek.dev" className="text-2xl text-center md:text-3xl text-primary dark:text-secondary dark:hover:text-secondary_light"/>
           </div>
         </div>
       </div>

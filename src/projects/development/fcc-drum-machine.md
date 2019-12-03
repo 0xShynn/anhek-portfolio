@@ -2,11 +2,11 @@
 title: "Drum Machine"
 title_fr: "Drum Machine"
 order: 4
-description: "Drum Machine project on freeCodeCamp. Created with React for the 'Front End Libraries Projects' certification."
-description_fr: "Projet de Drum Machine sur freeCodeCamp. Créée avec React pour la certifcation 'Front End Libraries Projects'."
+description: "Project created for the 'Front End Libraries Projects' certification on freeCodeCamp. Made with React."
+description_fr: "Projet créé pour la certification 'Front End Libraries Projects' sur freeCodeCamp. Réalisé avec React."
 featuredImage: ../../images/development/fcc-drum-machine.jpg
 url: "https://codepen.io/anhek/debug/qBWpQwZ"
 source_url: "https://codepen.io/anhek/pen/qBWpQwZ"
-tags: ["design", "html", "scss", "javascript", "react"]
+tags: ["Design", "HTML", "SCSS", "JavaScript", "React"]
 tags_fr: ["design", "html", "scss", "javascript", "react"]
 ---

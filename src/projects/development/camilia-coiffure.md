@@ -6,6 +6,6 @@ description: "Visual identity, print creations and responsive website created wi
 description_fr: "Identité visuelle, créations print et site web responsive réalisé sous WordPress."
 featuredImage: ../../images/development/camilia-coiffure.jpg
 url: "http://camilia-coiffure.fr"
-tags: ["branding", "webdesign", "html", "css", "php", "wordpress"]
+tags: ["Branding", "Webdesign", "HTML", "CSS", "PHP", "WordPress"]
 tags_fr: ["branding", "webdesign", "html", "css", "php", "wordpress"]
 ---

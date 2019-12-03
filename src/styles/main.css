@@ -29,7 +29,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 /* TYPOGRAPHY */
 
 p {
-  @apply text-lg font-body tracking-widy;
+  @apply text-base font-body tracking-widy;
+}
+
+@screen sm {
+  p {
+    @apply text-lg;
+  }
 }
 
 .lang_active {
@@ -46,7 +52,6 @@ p {
 .bgNenderoid {
   fill: #5b87ff;
 }
-
 
 /* ABOUT SECTION */
 

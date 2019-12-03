@@ -22,11 +22,11 @@
   },
   "about": {
     "title": "À Propos",
-    "intro": "Bonjour ! Je m'appelle Antonin Nhek. Après des années de graphisme et une période d'absence dans le domaine de la communication, j'ai effectué une reconversion professionnelle pour être développeur web en janvier 2019.",
-    "text1": "J'ai débuté avec le bootcamp 'The Hacking Project' où j'ai appris les concepts de base de la programmation et du développement back-end, l'algorithmie, le pair-programming et peer-learning. J'ai réalisé des projets variés en JavaScript, Ruby et Rails. C'était également l'environnement idéal pour mettre en place une dynamique d'apprentissage au quotidien, développer mes compétences en communication et en travail d'équipe.",
-    "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS/SCSS, JavaScript, la librairie React et des frameworks tel que GatsbyJS. J'ai suivi des cours sur le site de freeCodeCamp, Udemy, Mosh Hamedani, Wes Bos et d'autres glanés sur le Web.",
-    "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence. J'adore Spotify, Last.fm, Pinterest et les burgers Beyond Meat. Je fais de la calisthénie, du break-dance, de l'escalade et j'aime jouer à la Switch et aux jeux de cartes avec mes amis.",
-    "text4": "Je suis actuellement à la recherche d'un poste en tant que développeur front-end junior. Je serais ravi d'intégrer une équipe à taille humaine pour apporter mes compétences et ma vision.",
+    "intro": "Bonjour ! Je m'appelle Antonin Nhek. Après des années de graphisme et une période d'absence dans le domaine de la communication, j'ai effectué une reconversion professionnelle en janvier 2019 pour être Développeur Web.",
+    "text1": "J'ai débuté avec le bootcamp 'The Hacking Project' où j'ai appris les concepts de base de la programmation, du développement back-end et de l'algorithmie. J'ai réalisé des projets variés en JavaScript, Ruby et Rails. C'était également l'environnement idéal pour mettre en place une dynamique d'apprentissage au quotidien, développer mes compétences en communication et de travail en équipe.",
+    "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS/SCSS, JavaScript, React et GatsbyJS. J'ai suivi des cours sur le site de freeCodeCamp, Udemy, Mosh Hamedani et Wes Bos.",
+    "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence. Je pratique régulièrement la calisthénie, le break-dance et l'escalade. J'adore Spotify, Last.fm, la Switch et les burgers Beyond Meat :3",
+    "text4": "Je suis actuellement à la recherche d'un poste en tant que Développeur Front-End Junior. Je serais ravi d'intégrer une équipe à taille humaine pour apporter mes compétences et ma vision.",
     "dropamail": "Pour me contacter",
     "interests": {
       "title": "Mes centres d’intérêt",

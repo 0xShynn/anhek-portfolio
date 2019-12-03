@@ -7,6 +7,6 @@ description_fr: "Design et intégration d'une interface web responsive pour mon 
 featuredImage: ../../images/development/batch-cookerz.jpg
 url: "http://batchcookerz.fr"
 source_url: "https://github.com/anhek/thp-batch-cookerz"
-tags: ["visual identity", "webdesign", "html", "scss", "bootstrap", "ruby", "git"]
-tags_fr: ["identité visuelle", "webdesign", "html", "scss", "bootstrap", "ruby", "git"]
+tags: ["Webdesign", "HTML", "SCSS", "Bootstrap", "Ruby", "Git"]
+tags_fr: ["webdesign", "html", "scss", "bootstrap", "ruby", "git"]
 ---

@@ -6,6 +6,6 @@ description: "Selection of my previous work as a graphic designer (agency works,
 description_fr: "Sélection de mes anciens projets en tant que graphiste (travaux en agence, freelance, side projects)"
 featuredImage: ../../images/development/graphic-design.png
 url: "/graphic-design"
-tags: ["branding", "visual identity", "print", "illustration", "poster"]
+tags: ["Branding", "Visual Identity", "Print", "Illustration", "Poster"]
 tags_fr: ["branding", "identité visuelle", "print", "illustration", "affiche"]
 ---
