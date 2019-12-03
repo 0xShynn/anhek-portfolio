@@ -48,15 +48,26 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Antonin Nhek | Visual Designer & Front-End Developer",
-        short_name: "Antonin Nhek",
+        name: "Antonin Nhek Portfolio",
+        short_name: "ANhek Portfolio",
         start_url: "/",
         background_color: "#1a202c",
-        theme_color: "#c7ff84",
+        theme_color: "#214ECF",
+        description: `I craft coherent, accessible and intuitive digital projects with pixels and code.`,
+        lang: `en`,
+        localize: [
+          {
+            start_url: `/fr/`,
+            lang: `fr`,
+            name: `Antonin Nhek Portfolio`,
+            short_name: `ANhek Portfolio`,
+            description: `Je conçois des projets digitaux cohérents, accessibles et intuitifs grâce aux pixels et au code.`,
+          },
+        ],
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "src/images/anhek-icon.png", // This path is relative to the root of the site.
+        icon: "src/images/anhek-icon-512.png", // This path is relative to the root of the site.
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
