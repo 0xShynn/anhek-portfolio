@@ -44,11 +44,11 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, u
   const handleTitleLink = (
     url === '/graphic-design' ? (
       <Link to="/graphic-design">
-        {selectedTitle} <IoIosArrowRoundForward className="inline" />
+        {selectedTitle} <IoIosArrowRoundForward className="inline mb-1" />
       </Link>
     ) : (
       <a href={url}>
-        {selectedTitle} <IoIosArrowRoundForward className="inline" />
+        {selectedTitle} <IoIosArrowRoundForward className="inline mb-1" />
       </a>
     )
   )

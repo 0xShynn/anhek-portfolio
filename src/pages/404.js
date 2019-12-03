@@ -2,6 +2,7 @@ import React from "react"
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
+import Header from "../components/header"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 import Nenderoidos from '../components/nenderoidos';
@@ -13,6 +14,7 @@ const NotFoundPage = ({ intl }) => (
       lang={intl.locale}
       title={`${intl.formatMessage({ id: "pages.404" })}`}
     />
+    <Header siteTitle={intl.formatMessage({ id: "title" })}/>      
     <div className="flex flex-col max-w-md px-12 py-20 mx-auto text-gray-900 dark:text-white md:px-32 sm:max-w-xl md:max-w-4xl">
       <div className="max-w-md p-4 mx-auto text-center bg-gray-300 rounded-lg dark:bg-white dark:text-gray-800 sm:p-6">
         <h1 className="text-3xl font-bold md:text-3xl lg:text-4xl">
