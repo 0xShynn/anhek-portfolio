@@ -7,7 +7,7 @@ import { MdKeyboardArrowRight } from "react-icons/md"
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 md:px-6 sm:max-w-2xl sm:py-20 md:py-24 lg:py-32">
+    <section id="about" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 md:px-6 sm:max-w-2xl md:max-w-2xl sm:py-20 md:py-24 lg:py-32">
       <div className="w-48 mx-auto mb-6 overflow-hidden rounded-full md:w-56 md:mb-8">
         <Portrait/>
       </div>    
@@ -22,7 +22,7 @@ const About = () => {
           <FormattedMessage id="about.text1" /><br /><br /><br />
           <FormattedMessage id="about.text2" /><br /><br /><br />
         </p>
-        <div className="flex flex-col sm:flex-row">
+        <div className="flex flex-col p-4 p-8 mb-1 bg-gray-200 rounded-lg sm:flex-row dark:bg-gray-800">
           <ul className="mr-10 text-lg list">
             <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary_light">
               <FormattedMessage id="about.interests.title" />
@@ -78,7 +78,7 @@ const About = () => {
         <p className="pb-10 md:pb-16">
           <FormattedMessage id="about.text3" />
         </p>
-        <p className="pt-10 text-xl border-t border-gray-400 md:text-2xl dark:text-secondary_light dark:border-gray-700 md:pt-16">
+        <p className="pt-10 text-xl font-semibold text-gray-700 border-t border-gray-400 md:text-2xl dark:text-secondary_light dark:border-gray-700 md:pt-16">
           <FormattedMessage id="about.text4" />
         </p>
         <br /><br />
