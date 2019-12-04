@@ -8,38 +8,6 @@ module.exports = {
       'lg': '992px',
       'xl': '1280px',
     },
-    fontFamily: {
-      body: [
-        'Fira Sans',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-      ],
-      header: [
-        'Work Sans',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-      ],
-    },
     extend: {
       colors: {
         primary: '#214ECF',
@@ -54,6 +22,16 @@ module.exports = {
       },
       fontSize: {
         '1xl': '1.35rem',
+      },
+      fontFamily: {
+        body: [
+          'Fira Sans',
+          ...defaultTheme.fontFamily.sans,
+        ],
+        header: [
+          'Work Sans',
+          ...defaultTheme.fontFamily.sans,
+        ],
       },
     }
   },

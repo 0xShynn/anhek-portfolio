@@ -22,8 +22,8 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, u
   const selectedDescription = (lang === 'fr' ? (`${description_fr}`) : (`${description}`));
 
   const handleImageLink = (
-    url === '/graphic-design' ? (
-      <Link to="/graphic-design">
+    url.match(/\//ig) ? (
+      <Link to={url}>
         <Img
           fluid={img}
           className="rounded shadow-lg"
@@ -42,8 +42,8 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, u
   );
 
   const handleTitleLink = (
-    url === '/graphic-design' ? (
-      <Link to="/graphic-design">
+    url.match(/\//ig) ? (
+      <Link to={url}>
         {selectedTitle} <IoIosArrowRoundForward className="inline mb-1" />
       </Link>
     ) : (
