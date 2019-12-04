@@ -30,11 +30,11 @@
     "dropamail": "Pour me contacter",
     "interests": {
       "title": "Mes centres d’intérêt",
-      "1": "Design Adaptatif/Responsive",
+      "1": "Design Responsive",
       "2": "UX/UI Design",
       "3": "Performance Web",
       "4": "Accessibilité",
-      "5": "Confidentialité en ligne"
+      "5": "Confidentialité"
     },
     "personality": {
       "title": "5 choses à propos de moi",
@@ -42,7 +42,7 @@
       "2": "Adaptabilité",
       "3": "Autonome",
       "4": "Méticuleux",
-      "5": "Attentif"
+      "5": "Curieux"
     }
   },
   "footer": {

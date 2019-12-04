@@ -30,7 +30,7 @@
     "dropamail": "Get in touch",
     "interests": {
       "title": "My main interests",
-      "1": "Adaptive/Responsive Design",
+      "1": "Responsive Design",
       "2": "UX/UI Design",
       "3": "Web Performance",
       "4": "Accessibility",
@@ -38,17 +38,18 @@
     },
     "personality": {
       "title": "5 things about myself",
-      "1": "Team spirit",
+      "1": "Team Spirit",
       "2": "Adaptability",
       "3": "Autonomous",
       "4": "Meticulous",
-      "5": "Careful"
+      "5": "Curieux"
     }
   },
   "footer": {
     "socialconnect": "Let's connect!",
     "info": "Build with",
     "powered": "Powered by",
+    "hosted": "Hosted by",
     "back_to_top": "Back to top"
   },
   "social": {
