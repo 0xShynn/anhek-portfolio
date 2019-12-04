@@ -1,5 +1,5 @@
 {
-  "title": "Antonin Nhek • Designer Graphique & Développeur Front-End",
+  "title": "Antonin Nhek • Visual Designer & Développeur Front-End",
   "description": "Je conçois des projets digitaux cohérents, accessibles et intuitifs grâce aux pixels et au code.",
   "author": "@anhek_",
   "pages": {
@@ -13,10 +13,10 @@
     "contact": "Contact"
   },
   "graphicdesign": {
-    "intro": "Sélection de mes travaux en tant que designer graphique."
+    "intro": "Sélection de mes travaux en tant que Designer Graphique."
   },
   "hero": {
-    "job_design": "Designer Graphique",
+    "job_design": "Visual Designer",
     "job_dev" : "Développeur Front-End",
     "job_description" : "J'aime concevoir des projets digitaux cohérents, accessibles et intuitifs grâce aux pixels et au code."
   },

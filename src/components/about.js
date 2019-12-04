@@ -22,7 +22,7 @@ const About = () => {
           <FormattedMessage id="about.text1" /><br /><br /><br />
           <FormattedMessage id="about.text2" /><br /><br /><br />
         </p>
-        <div className="flex flex-col p-4 p-8 mb-1 bg-gray-200 rounded-lg sm:flex-row dark:bg-gray-800">
+        <div className="flex flex-col p-6 mb-1 bg-gray-200 rounded-lg sm:p-8 sm:flex-row dark:bg-gray-800">
           <ul className="mr-10 text-lg list">
             <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary_light">
               <FormattedMessage id="about.interests.title" />
