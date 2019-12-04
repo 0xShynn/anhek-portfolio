@@ -17,7 +17,7 @@ const Hero = () => {
           <h2 className="mb-4 text-2xl font-bold leading-tight text-center md:text-left sm:text-3xl md:text-4xl">
             <FormattedMessage id="hero.job_design" /> &<br/> <FormattedMessage id="hero.job_dev" />
           </h2>
-          <h3 className="w-full mb-8 text-xl text-center text-gray-800 font-body dark:text-gray-100 md:text-left sm:text-1xl md:max-w-md lg:max-w-lg">
+          <h3 className="w-full mb-8 text-xl text-center text-gray-800 font-body dark:text-gray-100 md:text-left sm:text-1xl md:max-w-md lg:max-w-xl">
             <FormattedMessage id="hero.job_description" />
           </h3>
           <Social value="text-gray-800 hover:text-primary dark:text-white dark:hover:text-secondary"/>
