@@ -1,6 +1,6 @@
 {
   "title": "Antonin Nhek • Visual Designer & Front-End Developer",
-  "description": "I craft coherent, accessible and intuitive digital projects with pixels and code.",
+  "description": "I love turning design and ideas into intuitive, performing and accessible interfaces.",
   "author": "@anhek_",
   "pages": {
     "index": "Home",
@@ -18,15 +18,15 @@
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Front-End Developer",
-    "job_description" : "I enjoy crafting coherent, accessible and intuitive digital projects with pixels and code."
+    "job_description" : "I love turning design and ideas into intuitive, performing and accessible interfaces."
   },
   "about": {
     "title": "About Me",
-    "intro": "Hello ! I am Antonin Nhek. After years of graphics and a period of absence in the communication field, I made a professional reconversion in January 2019 to be Web Developer.",
+    "intro": "Hello ! I am Antonin Nhek. After years of graphics and a period away from the tech industry, I made a professional reconversion in January 2019 to be Web Developer.",
     "text1": "I started with the bootcamp 'The Hacking Project' where I learned the core concepts of programming, back-end development and algorithmics. I realized various projects in JavaScript, Ruby and Rails. It was also the ideal environment for setting up a daily learning dynamic.",
     "text2": "Being as much attracted by design as programming, front-end development was naturally the way to go for me. So I continued my self-taught programming journey with HTML, CSS/SCSS, JavaScript, React and Gatsby. I took courses on websites like Udemy, freeCodeCamp, Mosh Hamedani and Wes Bos.",
     "text3": "In addition to tech field, I'm immersed in Hip-Hop culture since my teens. I regularly practice calisthenics, break-dancing and climbing. I love Spotify, Last.fm, the Nintendo Switch and Beyond Meat burgers :3",
-    "text4": "I am currently looking for a position as a Junior front-End Developer. I would love to join a human scale team to bring my skills and my vision.",
+    "text4": "I am currently looking for a position as a Junior front-End Developer. I would love to join a dev team to bring my skills.",
     "dropamail": "Get in touch",
     "interests": {
       "title": "My main interests",

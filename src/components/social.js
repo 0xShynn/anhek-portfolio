@@ -15,7 +15,7 @@ const Social = ({value}) => {
           <a className={value} href="https://codepen.io/anhek" title="Let's connect on LinkedIn"><FaCodepen/></a>
         </li>
         <li>
-          <a className={value} href="http://linkedin.com/anhek" title="Let's connect on LinkedIn"><FaLinkedinIn/></a>
+          <a className={value} href="https://www.linkedin.com/in/anhek" title="Let's connect on LinkedIn"><FaLinkedinIn/></a>
         </li>
       </ul>
     </div>

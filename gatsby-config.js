@@ -54,7 +54,7 @@ module.exports = {
         start_url: "/",
         background_color: "#1a202c",
         theme_color: "#214ECF",
-        description: `I craft coherent, accessible and intuitive digital projects with pixels and code.`,
+        description: `I love turning design and ideas into intuitive, performing and accessible interfaces.`,
         lang: `en`,
         localize: [
           {
@@ -62,7 +62,7 @@ module.exports = {
             lang: `fr`,
             name: `Antonin Nhek Portfolio`,
             short_name: `ANhek Portfolio`,
-            description: `Je conçois des projets digitaux cohérents, accessibles et intuitifs grâce aux pixels et au code.`,
+            description: `J'aime transformer le design et les idées en interfaces intuitives, performantes et accessibles.`,
           },
         ],
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
