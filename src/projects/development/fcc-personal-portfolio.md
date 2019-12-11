@@ -1,6 +1,6 @@
 ---
 title: "Portfolio Example"
-title_fr: "Example de Portfolio"
+title_fr: "Exemple de Portfolio"
 order: 7
 description: "Project created for the 'Responsive Web Design' certification on freeCodeCamp."
 description_fr: "Projet réalisé pour la certification 'Responsive Web Design' sur freeCodeCamp."
