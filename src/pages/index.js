@@ -19,6 +19,7 @@ const IndexPage = () => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "pages.index" })}
         keywords={[`developer`, `front-end developer`, `graphic designer`]}
+        image={`src/images/anhek-screenshot.png`}
       />
       <Header siteTitle={intl.formatMessage({ id: "title" })}/>      
       <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
