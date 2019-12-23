@@ -1,7 +1,7 @@
 {
-  "title": "Antonin Nhek • Visual Designer & Développeur Front-End",
-  "description": "J'aime transformer le design et les idées en interfaces intuitives, performantes et accessibles.",
-  "author": "@anhek_",
+  "title": "Antonin Nhek • Visual Designer & Développeur Front-end",
+  "description": "Bonjour ! Je suis Antonin Nhek, Visual Designer & Développeur Front-end. J'aime transformer design et idées en interfaces intuitives, performantes et accessibles.",
+  "author": "Antonin Nhek",
   "pages": {
     "index": "Accueil",
     "graphicdesign": "Design Graphique",
@@ -17,8 +17,8 @@
   },
   "hero": {
     "job_design": "Visual Designer",
-    "job_dev" : "Développeur Front-End",
-    "job_description" : "J'aime transformer le design et les idées en interfaces intuitives, performantes et accessibles."
+    "job_dev" : "Développeur Front-end",
+    "job_description" : "J'aime transformer design et idées en interfaces intuitives, performantes et accessibles."
   },
   "about": {
     "title": "À Propos",
@@ -26,7 +26,7 @@
     "text1": "J'ai débuté avec le bootcamp 'The Hacking Project' où j'ai appris les concepts de base de la programmation, du développement back-end et de l'algorithmie. J'ai réalisé des projets variés en JavaScript, Ruby et Rails. C'était également l'environnement idéal pour mettre en place une dynamique d'apprentissage au quotidien.",
     "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS/SCSS, JavaScript, React et GatsbyJS. J'ai suivi des cours sur le site de freeCodeCamp, Udemy, Mosh Hamedani et Wes Bos.",
     "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence. Je pratique régulièrement la calisthénie, le break-dance et l'escalade. J'adore Spotify, Last.fm, la Nintendo Switch et les burgers Beyond Meat :3",
-    "text4": "Je suis actuellement à la recherche d'un poste en tant que Développeur Front-End Junior. Je serais ravi de rejoindre une équipe de développement pour apporter mes compétences.",
+    "text4": "Je suis actuellement à la recherche d'un poste en tant que Développeur Front-end Junior. Je serais ravi de rejoindre une équipe de développement pour apporter mes compétences.",
     "dropamail": "Pour me contacter",
     "interests": {
       "title": "Mes centres d’intérêt",

@@ -11,7 +11,7 @@ import Helmet from "react-helmet"
 import { useIntl } from "gatsby-plugin-intl"
 
 
-function SEO({ meta, lang, title }) {
+function SEO({ meta, lang, title, image }) {
 
   const intl = useIntl();
 
@@ -29,12 +29,20 @@ function SEO({ meta, lang, title }) {
           content: `${intl.formatMessage({ id: "description" })}`,
         },
         {
+          name: `author`,
+          content: `${intl.formatMessage({ id: "author" })}`,
+        },
+        {
           property: `og:title`,
           content: `${intl.formatMessage({ id: "title" })}`,
         },
         {
           property: `og:description`,
           content: `${intl.formatMessage({ id: "description" })}`,
+        },
+        {
+          property: `og:image`,
+          content: {image},
         },
         {
           property: `og:type`,
@@ -56,6 +64,10 @@ function SEO({ meta, lang, title }) {
           name: `twitter:description`,
           content:`${intl.formatMessage({ id: "description" })}`,
         },
+        {
+          name: `twitter:image`,
+          content: {image}, 
+        }
       ].concat(meta)}
     />
   )

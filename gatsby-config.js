@@ -50,19 +50,19 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Antonin Nhek Portfolio",
-        short_name: "ANhek Portfolio",
+        short_name: "A. Nhek Portfolio",
         start_url: "/",
         background_color: "#1a202c",
         theme_color: "#214ECF",
-        description: `I love turning design and ideas into intuitive, performing and accessible interfaces.`,
+        description: `Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I love turning design and ideas into intuitive, performing and accessible interfaces.`,
         lang: `en`,
         localize: [
           {
             start_url: `/fr/`,
             lang: `fr`,
             name: `Antonin Nhek Portfolio`,
-            short_name: `ANhek Portfolio`,
-            description: `J'aime transformer le design et les idées en interfaces intuitives, performantes et accessibles.`,
+            short_name: `A. Nhek Portfolio`,
+            description: `Je suis Antonin Nhek, Visual Designer & Développeur Front-end. J'aime transformer design et idées en interfaces intuitives, performantes et accessibles.`,
           },
         ],
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)

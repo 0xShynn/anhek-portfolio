@@ -1,7 +1,7 @@
 {
-  "title": "Antonin Nhek • Visual Designer & Front-End Developer",
-  "description": "I love turning design and ideas into intuitive, performing and accessible interfaces.",
-  "author": "@anhek_",
+  "title": "Antonin Nhek • Visual Designer & Front-end Developer",
+  "description": "Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I love turning design and ideas into intuitive, performing and accessible interfaces.",
+  "author": "Antonin Nhek",
   "pages": {
     "index": "Home",
     "graphicdesign": "Graphic Design",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "job_design": "Visual Designer",
-    "job_dev" : "Front-End Developer",
+    "job_dev" : "Front-end Developer",
     "job_description" : "I love turning design and ideas into intuitive, performing and accessible interfaces."
   },
   "about": {
