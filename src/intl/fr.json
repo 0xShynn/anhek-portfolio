@@ -27,7 +27,9 @@
     "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS/SCSS, JavaScript, React et GatsbyJS. J'ai suivi des cours sur le site de freeCodeCamp, Udemy, Mosh Hamedani et Wes Bos.",
     "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence. Je pratique régulièrement la calisthénie, le break-dance et l'escalade. J'adore Spotify, Last.fm, la Nintendo Switch et les burgers Beyond Meat :3",
     "text4": "Je suis actuellement à la recherche d'un poste en tant que Développeur Front-end Junior. Je serais ravi de rejoindre une équipe de développement pour apporter mes compétences.",
-    "dropamail": "Pour me contacter",
+    "sendMail": "Me contacter",
+    "downloadResume": "Télécharger mon CV",
+    "resume": "https://www.dropbox.com/s/6bjuvw7zeeustn4/antonin-nhek-cv-fr.pdf?dl=0",
     "interests": {
       "title": "Mes centres d’intérêt",
       "1": "Design Responsive",
