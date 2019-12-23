@@ -89,7 +89,7 @@ const About = () => {
           <a className="px-5 py-3 mb-4 mr-0 border rounded-lg sm:mb-0 sm:mr-4 border-primary dark:border-secondary md:py-4 md:px-8 md:text-2xl text-primary hover:bg-gray-200 dark:hover:bg-gray-800 dark:text-secondary" href={intl.formatMessage({ id: "about.resume" })}>
             <MdFileDownload className="inline"/> <FormattedMessage id="about.downloadResume" />
           </a>
-          <Obfuscate email="hello@anhek.dev">
+          <Obfuscate email="hello@anhek.dev" obfuscate={false}>
             <button className="px-5 py-3 border rounded-lg border-primary dark:border-secondary md:py-4 md:px-8 md:text-2xl text-primary hover:bg-gray-200 dark:hover:bg-gray-800 dark:text-secondary">
               <GoMail className="inline mb-1 mr-1"/> <FormattedMessage id="about.sendMail" />
             </button>
