@@ -14,7 +14,8 @@ import { useIntl } from "gatsby-plugin-intl"
 function SEO({ meta, lang, title, image }) {
 
   const intl = useIntl();
-
+  console.log(image);
+  
   return (
     <Helmet
       htmlAttributes={{
@@ -42,7 +43,7 @@ function SEO({ meta, lang, title, image }) {
         },
         {
           property: `og:image`,
-          content: {image},
+          content: `${image}`,
         },
         {
           property: `og:type`,
@@ -66,7 +67,7 @@ function SEO({ meta, lang, title, image }) {
         },
         {
           name: `twitter:image`,
-          content: {image}, 
+          content: `${image}`, 
         }
       ].concat(meta)}
     />
