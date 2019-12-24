@@ -15,18 +15,18 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   const intl = useIntl();
   const data = useStaticQuery(graphql`
-    query ogimage {
+    query {
       file(relativePath: {eq: "anhek-screenshot.png"}) {
         id
         childImageSharp {
-          fixed {
+          fixed(width: 1040) {
             src
           }
         }
       }
-    }  
+    }
   `)
-  
+    
   return (
     <Layout>
       <SEO

@@ -14,7 +14,6 @@ import { useIntl } from "gatsby-plugin-intl"
 function SEO({ meta, lang, title, image }) {
 
   const intl = useIntl();
-  console.log(image);
   
   return (
     <Helmet
@@ -51,11 +50,11 @@ function SEO({ meta, lang, title, image }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: `${intl.formatMessage({ id: "author" })}`,
+          content: `@anhek_`,
         },
         {
           name: `twitter:title`,
