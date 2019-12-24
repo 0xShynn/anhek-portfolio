@@ -66,7 +66,8 @@ function SEO({ meta, lang, title, image }) {
         },
         {
           name: `twitter:image`,
-          content: `${image}`, 
+          // content: `${image}`, 
+          content: `https://www.dropbox.com/s/p4gdjxlj0y6atky/anhek-screenshot.png?raw=1`,
         }
       ].concat(meta)}
     />
