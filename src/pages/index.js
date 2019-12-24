@@ -1,4 +1,6 @@
 import React from "react"
+
+import { useStaticQuery, graphql } from "gatsby"
 import { useIntl } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
@@ -12,6 +14,18 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const intl = useIntl();
+  const data = useStaticQuery(graphql`
+    query ogimage {
+      file(relativePath: {eq: "anhek-screenshot.png"}) {
+        id
+        childImageSharp {
+          fixed {
+            src
+          }
+        }
+      }
+    }  
+  `)
   
   return (
     <Layout>
@@ -19,7 +33,7 @@ const IndexPage = () => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "pages.index" })}
         keywords={[`developer`, `front-end developer`, `graphic designer`]}
-        image={`src/images/anhek-screenshot.png`}
+        image={data.file.childImageSharp.fixed.src}
       />
       <Header siteTitle={intl.formatMessage({ id: "title" })}/>      
       <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
