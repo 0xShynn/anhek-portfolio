@@ -7,5 +7,5 @@ description_fr: "Sélection de mes anciens projets en tant que graphiste (travau
 featuredImage: ../../images/development/graphic-design.png
 url: "/graphic-design"
 tags: ["Branding", "Visual Identity", "Print", "Illustration", "Poster"]
-tags_fr: ["branding", "identité visuelle", "print", "illustration", "affiche"]
+tags_fr: ["Branding", "Identité Visuelle", "Print", "Illustration", "Affiche"]
 ---

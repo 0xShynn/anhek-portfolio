@@ -1,11 +1,11 @@
 ---
 title: "Camilia Coiffure"
 title_fr: "Camilia Coiffure"
-order: 11
-description: "(Under Redesign) Visual identity, print creations and responsive website created with WordPress."
-description_fr: "(En cours de redesign) Identité visuelle, créations print et site web responsive réalisé sous WordPress."
+order: 1
+description: "Visual identity, print creations and responsive website created with GatsbyJS and Tailwind CSS."
+description_fr: "Identité visuelle, créations print et site web responsive réalisé avec GatsbySJ et Tailwind CSS."
 featuredImage: ../../images/development/camilia-coiffure.jpg
 url: "http://camilia-coiffure.fr"
-tags: ["Branding", "Webdesign", "HTML", "CSS", "PHP", "WordPress"]
-tags_fr: ["branding", "webdesign", "html", "css", "php", "wordpress"]
+tags: ["Branding", "Web Design", "HTML", "CSS", "React", "Gatsby", "GraphQL", "Tailwind CSS", "Git"]
+tags_fr: ["Branding", "Web Design", "HTML", "CSS", "React", "Gatsby", "GraphQL", "Tailwind CSS", "Git"]
 ---

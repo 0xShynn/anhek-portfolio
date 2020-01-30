@@ -8,5 +8,5 @@ featuredImage: ../../images/development/fcc-drum-machine.jpg
 url: "https://codepen.io/anhek/debug/qBWpQwZ"
 source_url: "https://codepen.io/anhek/pen/qBWpQwZ"
 tags: ["Design", "HTML", "SCSS", "JavaScript", "React"]
-tags_fr: ["design", "html", "scss", "javascript", "react"]
+tags_fr: ["Design", "HTML", "SCSS", "JavaScript", "React"]
 ---
