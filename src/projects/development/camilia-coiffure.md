@@ -6,6 +6,7 @@ description: "Visual identity, print creations and responsive website created wi
 description_fr: "Identité visuelle, créations print et site web responsive réalisé avec GatsbySJ et Tailwind CSS."
 featuredImage: ../../images/development/camilia-coiffure.jpg
 url: "http://camilia-coiffure.fr"
+source_url: "https://github.com/anhek/camilia-coiffure"
 tags: ["Branding", "Web Design", "HTML", "CSS", "React", "Gatsby", "GraphQL", "Tailwind CSS", "Git"]
 tags_fr: ["Branding", "Web Design", "HTML", "CSS", "React", "Gatsby", "GraphQL", "Tailwind CSS", "Git"]
 ---
