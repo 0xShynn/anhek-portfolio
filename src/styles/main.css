@@ -35,7 +35,7 @@ p {
   @apply text-lg font-body tracking-widy;
 }
 
-@screen sm {
+@screen md {
   p {
     @apply text-xl;
   }

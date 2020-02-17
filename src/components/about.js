@@ -71,7 +71,7 @@ const About = () => {
           </ul>
         </div>
         <br /><br />
-        <p className="">
+        <p>
           <FormattedMessage id="about.text3" />
         </p>
 

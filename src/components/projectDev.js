@@ -4,7 +4,7 @@ import { useIntl, injectIntl, Link } from "gatsby-plugin-intl"
 import { FiExternalLink, FiArrowRight } from "react-icons/fi"
 import { FaGithubAlt } from "react-icons/fa"
 
-const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, url, source_url }) => {
+const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, tags_fr, url, source_url }) => {
 
   const intl = useIntl();
   const lang = intl.locale;
@@ -61,20 +61,22 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, u
     ) : ("")
   )
 
-  const tagList = tags.map((tag, i) => [
-    i > 0 && <span className="mx-2 text-gray-500 dark:text-gray-600">•</span>,
-    <span className="mb-1 text-lg text-gray-600 dark:text-gray-500" key={i}>{tag} </span>
-  ])
+  const tagsList = () => {
+    const tagsSpace = "mx-1"
+    const tagsStyle = "px-2 pt-1 pb-0 mb-2 text-gray-500 bg-gray-800 rounded dark:text-gray-400";
 
-  // const tagList = tags.length ? (
-  //   tags.map((tag) => {
-  //     return (
-  //       <span className="mb-2 mr-2 text-base text-gray-700 rounded dark:border-gray-700 dark:text-gray-400" key={tag}>{tag}</span>
-  //     )
-  //   })
-  // ) : (
-  //   <div>No tags</div>
-  // );
+    if (lang === 'fr') {
+      return tags_fr.map((tag, i) => [
+        i > 0 && <span className={tagsSpace}/>,
+        <span className={tagsStyle} key={i}>{tag} </span>
+      ])
+    } else {
+      return tags.map((tag, i) => [
+        i > 0 && <span className={tagsSpace}/>,
+        <span className={tagsStyle} key={i}>{tag} </span>
+      ])
+    }
+  }
 
   return (
     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-20" key={selectedTitle}>
@@ -83,14 +85,14 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, u
           {handleImageLink}
         </div>
         <div>
-          <h4 className="mb-2 text-3xl font-bold font-header">
+          <h4 className="mb-2 text-2xl font-bold md:text-2.5xl font-header">
             {handleTitleLink}
             {handleSourceUrl}
           </h4>
           <p className="block mb-6 dark:text-white">
             {selectedDescription}{` `}
           </p>
-          <div className="flex flex-wrap">{tagList}</div>
+          <div className="flex flex-wrap">{tagsList()}</div>
         </div>
       </div>
     </div>
