@@ -19,8 +19,8 @@
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Développeur Front-end",
-    "job_hi" : "Hello! Je suis",
-    "job_description" : "Je conçois et développe des sites web responsive, optimisés et performants avec la JAMstack.",
+    "job_hi" : "Hello! Moi c'est",
+    "job_description" : "Je conçois et développe des sites web responsive, optimisés et performants.",
     "job_availability" : "Disponible pour des missions freelance."
   },
   "about": {
@@ -46,6 +46,17 @@
       "4": "Méticuleux",
       "5": "Curieux"
     }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "intro": "Vous avez des projets de développment web, des missions freelance ou tout simplement des opportunités à me proposer ? Entrons en contact et discutons-en autour d'un café !"
+  },
+  "form": {
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer"
   },
   "footer": {
     "socialconnect": "Liens utiles",

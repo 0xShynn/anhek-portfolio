@@ -5,16 +5,13 @@ import { MdKeyboardArrowRight } from "react-icons/md"
 
 
 const About = () => {
-  
+
   return (
     <section id="about" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 md:px-6 sm:max-w-2xl md:max-w-2xl lg:max-w-4xl sm:py-20 md:py-24 lg:py-32">
-      <div className="w-48 mx-auto mb-6 overflow-hidden rounded-full md:w-56 md:mb-8">
+      <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-full md:w-56 md:h-56 md:mb-12">
         <Portrait/>
-      </div>    
+      </div>
       <div className="text-gray-800 dark:text-white">
-        <p className="mb-6 text-2xl text-gray-600 md:text-3xl dark:text-secondary_light">
-          <FormattedMessage id="about.title" />
-        </p>
         <p className="font-bold leading-snug text-1xl sm:text-2xl md:text-3xl font-header">
           <FormattedMessage id="about.intro" /><br /><br /><br />
         </p>
@@ -36,7 +33,7 @@ const About = () => {
             </li>
             <li>
               <MdKeyboardArrowRight/>
-              <FormattedMessage id="about.interests.3" />            
+              <FormattedMessage id="about.interests.3" />
             </li>
             <li>
               <MdKeyboardArrowRight/>
@@ -71,16 +68,16 @@ const About = () => {
               <MdKeyboardArrowRight/>
               <FormattedMessage id="about.personality.5" />
             </li>
-          </ul>  
+          </ul>
         </div>
         <br /><br />
-        <p className="pb-10 md:pb-16">
+        <p className="">
           <FormattedMessage id="about.text3" />
         </p>
-        
+
       </div>
     </section>
   );
 }
- 
+
 export default About;

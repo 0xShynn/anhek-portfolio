@@ -1,12 +1,17 @@
 import React from 'react';
 import Form from './form';
+import { FormattedMessage } from 'react-intl';
 
 const Contact = () => {
   return (
-    <section id="contact" className="max-w-3xl px-6 py-6 mx-auto sm:px-10 lg:px-0 sm:py-10 md:py-20 lg:py-40">
-      <header className="mb-20">
-        <h2 className="mb-2 text-5xl text-white font-header">Prendre contact</h2>
-        <p className="text-2xl text-white">N'hésitez pas à m'écrire pour toutes propositions de missions ou d'opportunités, je vous répondrais dans les plus brefs délais.</p>
+    <section id="contact" className="max-w-3xl px-6 py-12 mx-auto sm:px-10 lg:px-0 sm:py-20 md:py-20 lg:py-32">
+      <header className="mb-10 md:mb-20">
+        <h2 className="mb-4 text-3xl text-white dark:text-gray-800 md:text-5xl font-header">
+          <FormattedMessage id="contact.title"/>
+        </h2>
+        <p className="text-xl text-white dark:text-gray-800 md:text-2xl">
+          <FormattedMessage id="contact.intro"/>
+        </p>
       </header>
       <Form/>
     </section>

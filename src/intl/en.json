@@ -20,7 +20,7 @@
     "job_design": "Visual Designer",
     "job_dev" : "Front-end Developer",
     "job_hi" : "Hello! I'm",
-    "job_description" : "I design and develop responsive, optimized and efficient websites with the JAMstack.",
+    "job_description" : "I design and develop responsive, optimized and efficient.",
     "job_availability" : "Available for freelance opportunities."
   },
   "about": {
@@ -46,6 +46,17 @@
       "4": "Meticulous",
       "5": "Curious"
     }
+  },
+  "contact": {
+    "title": "Contact me",
+    "intro": "Do you have web development projects, freelance missions or just opportunities to offer me? Let's get in touch and discuss it over a coffee!"
+  },
+  "form": {
+    "firstname": "First name",
+    "lastname": "Last name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
   },
   "footer": {
     "socialconnect": "Let's connect!",

@@ -10,7 +10,6 @@ import Header from "../components/header"
 import Work from "../components/work"
 import About from "../components/about"
 import SEO from "../components/seo"
-import Services from "../components/services"
 import Contact from "../components/contact"
 
 
@@ -38,19 +37,16 @@ const IndexPage = () => {
         image={data.file.childImageSharp.fixed.src}
       />
       <Header siteTitle={intl.formatMessage({ id: "title" })}/>
-      <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
+      <div className="bg-white dark:bg-gray-900">
         <Hero/>
       </div>
-      <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
+      <div className="bg-white dark:bg-gray-900">
         <Work/>
-      </div>
-      <div className="bg-white border-b dark:bg-gray-800">
-        <Services/>
       </div>
       <div className="bg-white dark:bg-gray-900">
         <About/>
       </div>
-      <div className="bg-gray-900">
+      <div className="bg-gray-900 dark:bg-white">
         <Contact/>
       </div>
     </Layout>
