@@ -19,6 +19,7 @@
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Développeur Front-end",
+    "job_hi" : "Hello! Je suis",
     "job_description" : "Je conçois et développe des sites web responsive, optimisés et performants avec la JAMstack.",
     "job_availability" : "Disponible pour des missions freelance."
   },

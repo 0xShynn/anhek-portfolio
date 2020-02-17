@@ -34,7 +34,7 @@ const Work = () => {
       }
     }
   `)
-  
+
   let projects = data.allMarkdownRemark.edges;
 
   return (
@@ -57,7 +57,6 @@ const Work = () => {
           ))
         }
       </div>
-      
     </section>
   );
 }

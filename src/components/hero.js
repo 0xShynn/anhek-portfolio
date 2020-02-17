@@ -13,12 +13,12 @@ const Hero = () => {
   return (
     <section className="flex flex-wrap max-w-md px-6 pt-20 pb-20 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl md:py-20 lg:py-40">
       <div className="flex items-center justify-center w-full md:w-1/3">
-        <Nenderoidos className="w-40 md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version"/>
+        <Nenderoidos className="w-40 transition duration-500 ease-in-out transform md:w-48 lg:w-56 hover:scale-110" alt="Antonin Nhek Nenderoid version"/>
       </div>
       <div className="flex items-center mt-6 md:w-2/3 md:mt-0 md:pl-3 lg:pl-6">
         <div className="flex flex-col items-center text-primary dark:text-secondary md:items-start">
           <h1 className="mb-2 text-xl text-center text-gray-800 font-body md:text-2xl lg:text-3xl dark:text-secondary_light">
-            Hello! Je suis <span className="font-bold">Antonin Nhek</span>
+          <FormattedMessage id="hero.job_hi" /> <span className="font-bold"><FormattedMessage id="author" /></span>
           </h1>
           <h2 className="mb-4 text-2xl font-bold leading-tight text-center md:text-left sm:text-3xl md:text-4xl lg:text-5xl">
             <FormattedMessage id="hero.job_design" /> &<br/> <FormattedMessage id="hero.job_dev" />
