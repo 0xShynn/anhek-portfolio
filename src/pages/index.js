@@ -38,19 +38,19 @@ const IndexPage = () => {
         image={data.file.childImageSharp.fixed.src}
       />
       <Header siteTitle={intl.formatMessage({ id: "title" })}/>
-      <div className="bg-white dark:bg-gray-900 dark:border-gray-800">
+      <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
         <Hero/>
       </div>
-      <div className="bg-gray-100 border-b dark:bg-gray-900 dark:border-gray-800">
+      <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
         <Work/>
       </div>
-      <div className="bg-white dark:bg-gray-800">
+      <div className="bg-white border-b dark:bg-gray-800">
         <Services/>
       </div>
       <div className="bg-white dark:bg-gray-900">
         <About/>
       </div>
-      <div className="bg-white">
+      <div className="bg-gray-900">
         <Contact/>
       </div>
     </Layout>
