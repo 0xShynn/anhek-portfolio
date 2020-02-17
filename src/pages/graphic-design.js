@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeaderSecondary from "../components/headerSecondary"
 import ProjectVisual from "../components/projectVisual"
-import { injectIntl, Link, useIntl, FormattedMessage } from "gatsby-plugin-intl"
-import { IoIosArrowRoundForward } from "react-icons/io"
+import { injectIntl, useIntl, FormattedMessage } from "gatsby-plugin-intl"
+import Button from "../components/button"
 
 
-const GraphicDesign = () => {  
+const GraphicDesign = () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
@@ -31,19 +31,19 @@ const GraphicDesign = () => {
           }
         }
       }
-    }  
+    }
   `)
-  
+
   let graphicDesignProjects = data.allMarkdownRemark.edges;
   const intl = useIntl();
-    
+
   return (
     <Layout>
       <SEO
         lang={intl.locale}
         title={intl.formatMessage({ id: "pages.graphicdesign" })}
         keywords={[`developer`, `front-end developer`, `graphic designer`]}
-      />      
+      />
       <HeaderSecondary/>
       <header className="mx-5 my-12 text-center sm:my-20 sm:mx-32 lg:my-24">
         <h1 className="text-2xl font-bold text-primary md:text-4xl dark:text-secondary font-header">
@@ -57,7 +57,7 @@ const GraphicDesign = () => {
         <div className="flex flex-col mx-auto md:max-w-4xl lg:max-w-4xl">
           {
             graphicDesignProjects.map(({node}) => (
-              <ProjectVisual 
+              <ProjectVisual
                 title={node.frontmatter.title}
                 img={node.frontmatter.featuredImage.childImageSharp.fluid}
                 key={node.id}
@@ -66,10 +66,11 @@ const GraphicDesign = () => {
           }
         </div>
         <div className="mb-12 text-center sm:mb-16 md:mb-20">
-          <Link to="/" className="text-xl md:text-2xl light dark">
-            <IoIosArrowRoundForward className="inline mb-1" />{` `}
-            <FormattedMessage id="global.backtohome" />
-          </Link>
+          <Button
+            link="/"
+            style={ `py-3` }
+            text={<FormattedMessage id="global.backtohome" />}
+          />
         </div>
       </section>
     </Layout>

@@ -1,21 +1,18 @@
 import React from 'react';
-import { FaGithubAlt, FaLinkedinIn, FaTwitter, FaCodepen } from "react-icons/fa"
+import { FaGithubAlt, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 
 const Social = ({value}) => {  
   return (
-    <div className="w-56 text-3xl">
-      <ul className="flex justify-between">
-        <li>
-          <a className={value} href="http://twitter.com/anhek_" title="Follow me on Twitter"><FaTwitter/></a>
+    <div className="w-40 text-3xl md:w-48 md:text-4xl">
+      <ul className="flex items-center justify-between">
+        <li className="flex">
+          <a className={value} href="https://www.linkedin.com/in/anhek" title="Let's connect on LinkedIn"><FaLinkedinIn/></a>
         </li>
-        <li>
+        <li className="flex">
           <a className={value} href="http://github.com/anhek" title="Check my work on GitHub"><FaGithubAlt/></a>
         </li>
-        <li>
-          <a className={value} href="https://codepen.io/anhek" title="Let's connect on LinkedIn"><FaCodepen/></a>
-        </li>
-        <li>
-          <a className={value} href="https://www.linkedin.com/in/anhek" title="Let's connect on LinkedIn"><FaLinkedinIn/></a>
+        <li className="flex">
+          <a className={value} href="http://twitter.com/anhek_" title="Follow me on Twitter"><FaTwitter/></a>
         </li>
       </ul>
     </div>

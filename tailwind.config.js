@@ -11,9 +11,11 @@ module.exports = {
     extend: {
       colors: {
         primary: '#214ECF',
-        primary_light: '#6485E8',
+        primary_medium: '#5285ff',
+        primary_light: '#bbd2ff',
         secondary: '#C7FF84',
-        secondary_light: '#E5FEC7', 
+        secondary_light: '#E5FEC7',
+        secondary_dark: '#394726',
       },
       screens: {
         dark: { raw: '(prefers-color-scheme: dark)' }
@@ -23,10 +25,11 @@ module.exports = {
       },
       fontSize: {
         '1xl': '1.35rem',
+        '2.5xl': '1.65rem',
       },
       fontFamily: {
         body: [
-          'Fira Sans',
+          'Overpass',
           ...defaultTheme.fontFamily.sans,
         ],
         header: [

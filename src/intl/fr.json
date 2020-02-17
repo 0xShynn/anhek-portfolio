@@ -1,6 +1,6 @@
 {
   "title": "Antonin Nhek • Visual Designer & Développeur Front-end",
-  "description": "Bonjour ! Je suis Antonin Nhek, Visual Designer & Développeur Front-end. J'aime transformer design et idées en interfaces intuitives, performantes et accessibles.",
+  "description": "Bonjour ! Je suis Antonin Nhek, Visual Designer & Développeur Front-end. Je conçois et développe des sites web responsive, optimisés et performants avec la JAMstack.",
   "author": "Antonin Nhek",
   "pages": {
     "index": "Accueil",
@@ -9,6 +9,7 @@
   },
   "nav": {
     "work": "Projets",
+    "services": "Services",
     "about": "À Propos",
     "contact": "Contact"
   },
@@ -18,7 +19,8 @@
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Développeur Front-end",
-    "job_description" : "J'aime transformer design et idées en interfaces intuitives, performantes et accessibles."
+    "job_description" : "Je conçois et développe des sites web responsive, optimisés et performants avec la JAMstack.",
+    "job_availability" : "Disponible pour des missions freelance."
   },
   "about": {
     "title": "À Propos",
@@ -27,9 +29,6 @@
     "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS/SCSS, JavaScript, React et GatsbyJS. J'ai suivi des cours sur le site de freeCodeCamp, Udemy, Mosh Hamedani et Wes Bos.",
     "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence. Je pratique régulièrement la calisthénie, le break-dance et l'escalade. J'adore Spotify, Last.fm, la Nintendo Switch et les burgers Beyond Meat :3",
     "text4": "Je suis actuellement à la recherche d'un poste en tant que Développeur Front-end Junior. Je serais ravi de rejoindre une équipe de développement pour apporter mes compétences.",
-    "sendMail": "Me contacter",
-    "downloadResume": "Télécharger mon CV",
-    "resume": "https://www.dropbox.com/s/6bjuvw7zeeustn4/antonin-nhek-cv-fr.pdf?raw=1",
     "interests": {
       "title": "Mes centres d’intérêt",
       "1": "Design Responsive",
@@ -48,23 +47,26 @@
     }
   },
   "footer": {
-    "socialconnect": "Réseaux sociaux",
+    "socialconnect": "Liens utiles",
     "info": "Réalisé avec",
     "powered": "Propulsé par",
     "hosted": "Hébergé sur",
     "back_to_top": "Retour en haut de page"
   },
   "social": {
-    "twitter": "Suivez-moi sur Twitter",
-    "github": "Check my work on GitHub",
-    "linkedin": "Connectons-nous sur LinkedIn",
-    "email": "Envoyez-moi un mail :)"
+    "twitter": "Voir mon profil Twitter",
+    "github": "Voir mon profil GitHub",
+    "linkedin": "Voir mon profil LinkedIn",
+    "email": "Envoyer un mail"
   },
   "notfound": {
     "header": "Erreur 404",
     "description": "Malheureusement, la page que vous recherchez n'existe pas :("
   },
   "global": {
-    "backtohome": "Retour à l'Accueil"
+    "backtohome": "Retour à l'Accueil",
+    "sendMail": "Me contacter",
+    "downloadResume": "Télécharger mon CV",
+    "resume": "https://www.dropbox.com/s/6bjuvw7zeeustn4/antonin-nhek-cv-fr.pdf"
   }
 }

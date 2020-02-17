@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+  border: 1px solid red;
+} */
 
 /* LINKS */
 
@@ -34,7 +37,7 @@ p {
 
 @screen sm {
   p {
-    @apply text-lg;
+    @apply text-xl;
   }
 }
 
@@ -56,7 +59,7 @@ p {
 /* ABOUT SECTION */
 
 .list li svg {
-  @apply inline text-gray-500 mr-2;
+  @apply inline mr-2 text-gray-500;
 }
 
 

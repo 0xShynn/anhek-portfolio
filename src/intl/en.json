@@ -1,6 +1,6 @@
 {
   "title": "Antonin Nhek • Visual Designer & Front-end Developer",
-  "description": "Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I love turning design and ideas into intuitive, performing and accessible interfaces.",
+  "description": "Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I design and develop responsive, optimized and efficient websites with the JAMstack.",
   "author": "Antonin Nhek",
   "pages": {
     "index": "Home",
@@ -9,6 +9,7 @@
   },
   "nav": {
     "work": "Work",
+    "services": "Services",
     "about": "About",
     "contact": "Contact"
   },
@@ -18,7 +19,8 @@
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Front-end Developer",
-    "job_description" : "I love turning design and ideas into intuitive, performing and accessible interfaces."
+    "job_description" : "I design and develop responsive, optimized and efficient websites with the JAMstack.",
+    "job_availability" : "Available for freelance opportunities."
   },
   "about": {
     "title": "About Me",
@@ -27,9 +29,6 @@
     "text2": "Being as much attracted by design as programming, front-end development was naturally the way to go for me. So I continued my self-taught programming journey with HTML, CSS/SCSS, JavaScript, React and Gatsby. I took courses on websites like Udemy, freeCodeCamp, Mosh Hamedani and Wes Bos.",
     "text3": "In addition to tech field, I'm immersed in Hip-Hop culture since my teens. I regularly practice calisthenics, break-dancing and climbing. I love Spotify, Last.fm, the Nintendo Switch and Beyond Meat burgers :3",
     "text4": "I am currently looking for a position as a Junior front-End Developer. I would love to join a dev team to bring my skills.",
-    "sendMail": "Get in touch",
-    "downloadResume": "Download my résumé",
-    "resume": "https://www.dropbox.com/s/78fl9l4mwwmaoeh/antonin-nhek-cv-int.pdf?raw=1",
     "interests": {
       "title": "My main interests",
       "1": "Responsive Design",
@@ -55,16 +54,19 @@
     "back_to_top": "Back to top"
   },
   "social": {
-    "twitter": "Follow me on Twitter",
-    "github": "Check my work on GitHub",
-    "linkedin": "Let's connect on LinkedIn",
-    "email": "Drop me a message ! :)"
+    "twitter": "See my Twitter profile",
+    "github": "See my GitHub profile",
+    "linkedin": "See my LinkedIn profile",
+    "email": "Send a mail"
   },
   "notfound": {
     "header": "Error 404",
     "description": "Unfortunately, the page you are looking for does not exist :("
   },
   "global": {
-    "backtohome": "Back to Home"
+    "backtohome": "Back to Home",
+    "sendMail": "Get in touch",
+    "downloadResume": "Download my résumé",
+    "resume": "https://www.dropbox.com/s/78fl9l4mwwmaoeh/antonin-nhek-cv-int.pdf"
   }
 }

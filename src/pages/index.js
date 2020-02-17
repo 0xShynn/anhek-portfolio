@@ -10,6 +10,8 @@ import Header from "../components/header"
 import Work from "../components/work"
 import About from "../components/about"
 import SEO from "../components/seo"
+import Services from "../components/services"
+import Contact from "../components/contact"
 
 
 const IndexPage = () => {
@@ -26,7 +28,7 @@ const IndexPage = () => {
       }
     }
   `)
-    
+
   return (
     <Layout>
       <SEO
@@ -35,15 +37,21 @@ const IndexPage = () => {
         keywords={[`developer`, `front-end developer`, `graphic designer`]}
         image={data.file.childImageSharp.fixed.src}
       />
-      <Header siteTitle={intl.formatMessage({ id: "title" })}/>      
-      <div className="bg-white border-b dark:bg-gray-900 dark:border-gray-800">
+      <Header siteTitle={intl.formatMessage({ id: "title" })}/>
+      <div className="bg-white dark:bg-gray-900 dark:border-gray-800">
         <Hero/>
       </div>
       <div className="bg-gray-100 border-b dark:bg-gray-900 dark:border-gray-800">
         <Work/>
       </div>
+      <div className="bg-white dark:bg-gray-800">
+        <Services/>
+      </div>
       <div className="bg-white dark:bg-gray-900">
         <About/>
+      </div>
+      <div className="bg-white">
+        <Contact/>
       </div>
     </Layout>
   )

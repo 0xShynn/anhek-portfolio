@@ -6,8 +6,9 @@
 
 // You can delete this file if you're not using it
 
-require('typeface-fira-sans');
 require('typeface-work-sans');
+require('typeface-overpass');
+
 
 // export const onServiceWorkerUpdateReady = () => {
 //   const answer = window.confirm(
