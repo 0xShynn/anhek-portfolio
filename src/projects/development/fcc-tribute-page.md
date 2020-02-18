@@ -1,6 +1,6 @@
 ---
-title: "Tribute Page: Tupac Shakur"
-title_fr: "Page Hommage: Tupac Shakur"
+title: "FCC Tribute Page"
+title_fr: "FCC Tribute Page"
 order: 5
 description: "Project created for the 'Responsive Web Design' certification on freeCodeCamp."
 description_fr: "Projet réalisé pour la certification 'Responsive Web Design' sur freeCodeCamp."

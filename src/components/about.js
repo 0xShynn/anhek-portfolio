@@ -18,9 +18,9 @@ const About = () => {
         <p className="">
           <FormattedMessage id="about.text2" /><br /><br /><br />
         </p>
-        <div className="flex flex-col p-6 mb-1 bg-gray-200 rounded-lg sm:p-8 sm:flex-row dark:bg-gray-800">
-          <ul className="w-full mr-10 text-lg list lg:w-1/2">
-            <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary_light">
+        <div className="flex flex-col p-6 mb-1 bg-gray-200 rounded-lg sm:p-10 md:flex-row dark:bg-gray-800">
+          <ul className="w-full mr-10 text-xl list lg:w-1/2">
+            <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary">
               <FormattedMessage id="about.interests.title" />
             </li>
             <li>
@@ -39,13 +39,13 @@ const About = () => {
               <MdKeyboardArrowRight/>
               <FormattedMessage id="about.interests.4" />
             </li>
-            <li className="mb-6 sm:mb-0">
+            <li className="mb-6 md:mb-0">
               <MdKeyboardArrowRight/>
               <FormattedMessage id="about.interests.5" />
             </li>
           </ul>
-          <ul className="w-full text-lg list lg:w-1/2">
-            <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary_light">
+          <ul className="w-full text-xl list lg:w-1/2">
+            <li className="mb-4 text-xl font-bold text-gray-700 uppercase font-header dark:text-secondary">
               <FormattedMessage id="about.personality.title" />
             </li>
             <li>

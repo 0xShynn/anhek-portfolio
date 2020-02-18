@@ -25,7 +25,7 @@
   },
   "about": {
     "title": "À Propos",
-    "intro": "Bonjour ! Je suis Antonin Nhek. Après des années de graphisme et une période loin de la communication, j'ai effectué une reconversion professionnelle en janvier 2019 pour être Développeur Web.",
+    "intro": "Je suis Antonin Nhek. Après des années de graphisme et une période loin de la communication, j'ai effectué une reconversion professionnelle en janvier 2019 pour être Développeur Web.",
     "text1": "J'ai débuté avec le bootcamp 'The Hacking Project' où j'ai appris les concepts de base de la programmation, du développement back-end et de l'algorithmie. J'ai réalisé des projets variés en JavaScript, Ruby et Rails. C'était également l'environnement idéal pour mettre en place une dynamique d'apprentissage au quotidien.",
     "text2": "Étant autant attiré par le design que la programmation, le développement front-end était naturellement la voie à suivre pour moi. J'ai donc poursuivi mon parcours de programmation en autodidacte avec HTML, CSS/SCSS, JavaScript, React et GatsbyJS. J'ai suivi des cours sur le site de freeCodeCamp, Udemy, Mosh Hamedani et Wes Bos.",
     "text3": "Outre le domaine de la tech, je baigne dans la culture Hip-Hop depuis mon adoslescence. Je pratique régulièrement la calisthénie, le break-dance et l'escalade. J'adore Spotify, Last.fm, la Nintendo Switch et les burgers Beyond Meat :3",
@@ -59,7 +59,7 @@
     "send": "Envoyer"
   },
   "footer": {
-    "socialconnect": "Liens utiles",
+    "socialconnect": "Réseaux",
     "info": "Réalisé avec",
     "powered": "Propulsé par",
     "hosted": "Hébergé sur",

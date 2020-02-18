@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 const Form = () => {
 
   const blockStyle = "mb-6 md:mb-10";
-  const labelStyle = "dark:text-secondary_light text-gray-700 font-bold text-xl md:text-2xl font-header ";
+  const labelStyle = "dark:text-secondary uppercase text-gray-700 font-bold text-xl font-header ";
   const inputStyle = "w-full px-3 py-3 mt-2 text-lg text-gray-800 dark:bg-white border rounded border-primary_light focus:border focus:border-primary focus:outline-none font-body bg-gray-100";
 
   return (
@@ -42,7 +42,7 @@ const Form = () => {
       </div>
 
       <div className="flex justify-center">
-        <button type="submit" className="px-12 py-2 mt-6 text-xl text-center text-white rounded-full cursor-pointer bg-primary hover:bg-primary_medium md:text-1xl dark:bg-secondary dark:text-secondary_dark dark:hover:bg-secondary_light">
+        <button type="submit" className="px-12 py-2 mt-6 text-xl font-bold text-center text-white uppercase rounded-full cursor-pointer font-header bg-primary hover:bg-primary_medium md:text-1xl dark:bg-secondary dark:text-secondary_dark dark:hover:bg-secondary_light">
           <FormattedMessage id="form.send"/>
         </button>
       </div>

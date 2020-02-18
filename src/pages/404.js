@@ -14,7 +14,7 @@ const NotFoundPage = ({ intl }) => (
       lang={intl.locale}
       title={`${intl.formatMessage({ id: "pages.404" })}`}
     />
-    <HeaderSecondary siteTitle={intl.formatMessage({ id: "title" })}/>      
+    <HeaderSecondary siteTitle={intl.formatMessage({ id: "title" })}/>
     <div className="flex flex-col max-w-md px-12 py-20 mx-auto text-gray-900 dark:text-white md:px-32 sm:max-w-xl md:max-w-4xl">
       <div className="max-w-md p-4 mx-auto text-center bg-gray-300 rounded-lg dark:bg-white dark:text-gray-800 sm:p-6">
         <h1 className="text-3xl font-bold md:text-3xl lg:text-4xl">
@@ -30,7 +30,7 @@ const NotFoundPage = ({ intl }) => (
       </div>
       <div id="triangle-code" className="inline-block mx-auto mb-4"></div>
       <div className="flex justify-center block w-full mx-auto mb-4">
-        <Nenderoidos className="w-40 md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version"/>
+        <Nenderoidos className="block w-40 md:w-48 lg:w-56" alt="Antonin Nhek Nenderoid version"/>
       </div>
     </div>
   </Layout>
