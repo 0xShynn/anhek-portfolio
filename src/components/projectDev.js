@@ -63,7 +63,7 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, t
 
   const tagsList = () => {
     const tagsSpace = "mx-1"
-    const tagsStyle = "px-2 pt-1 pb-0 mb-2 text-gray-500 bg-gray-800 rounded dark:text-gray-400";
+    const tagsStyle = "px-2 py-1 mb-2 text-gray-600 bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400";
 
     if (lang === 'fr') {
       return tags_fr.map((tag, i) => [

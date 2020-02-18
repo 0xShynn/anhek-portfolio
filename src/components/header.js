@@ -8,16 +8,22 @@ const Header = () => {
 
   return (
     <HeaderLayout>
-      <AnchorLink href="#work" className="mr-3 sm:mr-4 md:mr-4 hover:text-primary dark:hover:text-secondary">
-        <FormattedMessage id="nav.work" />
-      </AnchorLink>
-      <AnchorLink href="#about" className="mx-3 sm:mx-4 md:mx-4 hover:text-primary dark:hover:text-secondary">
-        <FormattedMessage id="nav.about" />
-      </AnchorLink>
-      <AnchorLink href="#contact" className="mx-3 sm:mx-4 md:mx-4 hover:text-primary dark:hover:text-secondary">
-        <FormattedMessage id="nav.contact" />
-      </AnchorLink>
-      <Language/>
+      <div className="flex flex-col items-center justify-center sm:flex-row">
+        <div>
+          <AnchorLink href="#work" className="hover:text-primary dark:hover:text-secondary">
+            <FormattedMessage id="nav.work" />
+          </AnchorLink>
+          <AnchorLink href="#about" className="mx-4 sm:mx-6 md:mx-8 hover:text-primary dark:hover:text-secondary">
+            <FormattedMessage id="nav.about" />
+          </AnchorLink>
+          <AnchorLink href="#contact" className="hover:text-primary dark:hover:text-secondary">
+            <FormattedMessage id="nav.contact" />
+          </AnchorLink>
+        </div>
+        <div>
+          <Language/>
+        </div>
+      </div>
     </HeaderLayout>
   )
 }

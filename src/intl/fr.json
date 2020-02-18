@@ -48,8 +48,8 @@
     }
   },
   "contact": {
-    "title": "Contactez-moi",
-    "intro": "Vous avez des projets de développment web, des missions freelance ou tout simplement des opportunités à me proposer ? Entrons en contact et discutons-en autour d'un café !"
+    "title": "Pour me contacter",
+    "intro": "Vous avez des projets de développement web, des missions freelance ou tout simplement des opportunités à me proposer ? Entrons en contact et discutons-en autour d'un café !"
   },
   "form": {
     "firstname": "Prénom",

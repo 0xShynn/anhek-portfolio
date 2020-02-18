@@ -24,7 +24,7 @@ const Button = ({ link, style, text }) => {
       </a>
     );
   } else {
-    /* Return a Link */
+    /* Return a Link component */
     return (
       <Link to={link} className={baseStyle + style}>
         {text}
