@@ -85,7 +85,7 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, t
           {handleImageLink}
         </div>
         <div>
-          <h4 className="mb-2 text-2xl font-bold md:text-2.5xl font-header">
+          <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
             {handleTitleLink}
             {handleSourceUrl}
           </h4>
