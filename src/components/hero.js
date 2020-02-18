@@ -32,11 +32,11 @@ const Hero = () => {
               style={ `mb-4 md:mb-0 md:mr-4` }
               text={<FormattedMessage id="global.sendMail" />}
             />
-            {/* <Button
+            <Button
               link={intl.formatMessage({ id: "global.resume" })}
               style={ `mb-4 md:mb-0 md:mr-4` }
               text={<FormattedMessage id="global.downloadResume" />}
-            /> */}
+            />
           </div>
         </div>
       </div>

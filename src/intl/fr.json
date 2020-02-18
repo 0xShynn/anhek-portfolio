@@ -1,6 +1,6 @@
 {
   "title": "Antonin Nhek • Visual Designer & Développeur Front-end",
-  "description": "Bonjour ! Je suis Antonin Nhek, Visual Designer & Développeur Front-end. Je conçois et développe des sites web responsive, optimisés et performants avec la JAMstack.",
+  "description": "Hello ! Moi c'est Antonin Nhek, Visual Designer & Développeur Front-end. Je conçois et développe des sites web responsive, optimisés et performants.",
   "author": "Antonin Nhek",
   "pages": {
     "index": "Accueil",
@@ -14,7 +14,7 @@
     "contact": "Contact"
   },
   "graphicdesign": {
-    "intro": "Sélection de mes travaux en tant que Visual Designer."
+    "intro": "Sélection de mes travaux en tant que Designer Graphique."
   },
   "hero": {
     "job_design": "Visual Designer",
@@ -48,7 +48,7 @@
     }
   },
   "contact": {
-    "title": "Pour me contacter",
+    "title": "Prendre contact",
     "intro": "Vous avez des projets de développement web, des missions freelance ou tout simplement des opportunités à me proposer ? Entrons en contact et discutons-en autour d'un café !"
   },
   "form": {
@@ -59,7 +59,7 @@
     "send": "Envoyer"
   },
   "footer": {
-    "socialconnect": "Réseaux",
+    "socialconnect": "Réseaux sociaux",
     "info": "Réalisé avec",
     "powered": "Propulsé par",
     "hosted": "Hébergé sur",
@@ -77,7 +77,7 @@
   },
   "global": {
     "backtohome": "Retour à l'Accueil",
-    "sendMail": "Me contacter",
+    "sendMail": "Contact",
     "downloadResume": "Télécharger mon CV",
     "resume": "https://www.dropbox.com/s/6bjuvw7zeeustn4/antonin-nhek-cv-fr.pdf"
   }

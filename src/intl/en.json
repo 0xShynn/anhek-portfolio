@@ -1,6 +1,6 @@
 {
   "title": "Antonin Nhek • Visual Designer & Front-end Developer",
-  "description": "Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I design and develop responsive, optimized and efficient websites with the JAMstack.",
+  "description": "Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I design and develop responsive, optimized and efficient websites.",
   "author": "Antonin Nhek",
   "pages": {
     "index": "Home",
@@ -14,13 +14,13 @@
     "contact": "Contact"
   },
   "graphicdesign": {
-    "intro": "Selection of my work as a graphic designer"
+    "intro": "Selection of my works as a Graphic Designer"
   },
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Front-end Developer",
     "job_hi" : "Hello! I'm",
-    "job_description" : "I design and develop responsive, optimized and efficient.",
+    "job_description" : "I design and develop responsive, optimized and efficient websites.",
     "job_availability" : "Available for freelance opportunities."
   },
   "about": {

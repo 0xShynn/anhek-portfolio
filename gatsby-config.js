@@ -43,7 +43,7 @@ module.exports = {
         name: `projects`,
         path: `${__dirname}/src/projects`,
       },
-    },    
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -54,7 +54,7 @@ module.exports = {
         start_url: "/",
         background_color: "#1a202c",
         theme_color: "#214ECF",
-        description: `Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I love turning design and ideas into intuitive, performing and accessible interfaces.`,
+        description: `Hello ! I am Antonin Nhek, Visual Designer & Front-end Developer. I design and develop responsive, optimized and efficient websites.`,
         lang: `en`,
         localize: [
           {
@@ -62,7 +62,7 @@ module.exports = {
             lang: `fr`,
             name: `Antonin Nhek Portfolio`,
             short_name: `A. Nhek Portfolio`,
-            description: `Je suis Antonin Nhek, Visual Designer & Développeur Front-end. J'aime transformer design et idées en interfaces intuitives, performantes et accessibles.`,
+            description: `Hello ! Moi c'est Antonin Nhek, Visual Designer & Développeur Front-end. Je conçois et développe des sites web responsive, optimisés et performants.`,
           },
         ],
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
