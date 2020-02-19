@@ -79,7 +79,7 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, t
   }
 
   return (
-    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-20" key={selectedTitle}>
+    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24" key={selectedTitle}>
       <div className="text-gray-800 dark:text-white">
         <div className="mb-6">
           {handleImageLink}
