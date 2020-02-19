@@ -4,7 +4,7 @@ import { useIntl, injectIntl, Link } from "gatsby-plugin-intl"
 import { FiExternalLink, FiArrowRight } from "react-icons/fi"
 import { FaGithubAlt } from "react-icons/fa"
 
-const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, tags_fr, url, source_url }) => {
+const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, tags_fr, url, source_url, key }) => {
 
   const intl = useIntl();
   const lang = intl.locale;
@@ -64,7 +64,6 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, t
   const tagsList = () => {
     const tagsSpace = "mx-1"
     const tagsStyle = "px-2 py-1 mb-2 text-gray-600 bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400";
-
     if (lang === 'fr') {
       return tags_fr.map((tag, i) => [
         i > 0 && <span className={tagsSpace}/>,

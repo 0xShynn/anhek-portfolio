@@ -2,26 +2,9 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import Portrait from './portrait';
 import { MdKeyboardArrowRight } from "react-icons/md"
-import { useStaticQuery, graphql } from 'gatsby';
+import Stack from './stack';
 
 const About = () => {
-
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      allFile(filter: {absolutePath: {regex: "/(stack-logos)/"}}) {
-        edges {
-          node {
-            name
-            publicURL
-            relativePath
-            absolutePath
-          }
-        }
-      }
-    }
-  `)
-  const svgLogos = data.allFile.edges;
-  console.log(svgLogos);
 
   return (
     <section id="about" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 md:px-6 sm:max-w-2xl md:max-w-2xl lg:max-w-5xl sm:py-20 md:py-24 lg:py-32">
@@ -33,32 +16,25 @@ const About = () => {
           {/* <FormattedMessage id="about.intro" /><br /><br /><br /> */}
           Après des années de graphisme et une reconversion en programmation web, je propose mes services en tant que Développeur Front-end freelance.
         </p>
-        <div className="flex flex-col mb-12 -mx-4 lg:flex-row">
-          <div className="w-full mx-4 mb-12 text-center lg:w-1/3">
-            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary">Web Design</h3>
+        <div className="flex flex-col mb-12 lg:-mx-6 lg:flex-row">
+          <div className="w-full mb-12 text-center lg:mx-6 lg:w-1/3">
+            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">Web Design</h3>
             <p className="text-2xl">Je designe vos interfaces de sites web et apps.</p>
           </div>
-          <div className="w-full mx-4 mb-10 text-center lg:w-1/3">
-            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary">Intégration</h3>
+          <div className="w-full mb-12 text-center lg:mx-6 lg:w-1/3">
+            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">Intégration</h3>
             <p className="text-2xl">J’intègre vos maquettes en responsive webdesign</p>
           </div>
-          <div className="w-full mx-4 mb-10 text-center lg:w-1/3">
-            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary">Développement</h3>
+          <div className="w-full mb-12 text-center lg:mx-6 lg:w-1/3">
+            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">Développement</h3>
             <p className="text-2xl">Je développe vos sites et interfaces via la JAMstack</p>
           </div>
         </div>
         <div>
-          <h3 className="mb-8 text-2xl font-bold text-center uppercase font-header">Ma Stack actuelle</h3>
-          <div className="flex flex-wrap justify-center mx-auto mb-24 lg:max-w-3xl">
-            {
-              svgLogos.map(({node})=>(
-                <img src={node.publicURL} alt={node.name} className="w-20 m-8 transition duration-500 ease-in-out transform hover:scale-125"/>
-              ))
-            }
-          </div>
+          <Stack/>
         </div>
-        <div className="flex flex-col rounded-lg md:flex-row">
-          <ul className="w-full mb-8 text-xl list lg:w-1/2 md:mb-0">
+        <div className="flex flex-col md:flex-row">
+          <ul className="w-full mb-8 text-xl list lg:w-1/2 lg:mx-auto md:mb-0">
             <li className="mb-4 text-xl font-bold uppercase text-primary font-header dark:text-secondary">
               <FormattedMessage id="about.personality.title" />
             </li>
