@@ -12,7 +12,7 @@ const Footer = () => {
         <FormattedMessage id="footer.socialconnect" />
       </h3>
       <div className="flex justify-center py-5 mb-4">
-        <Social value="light dark"/>
+        <Social value="light dark cursor-pointer"/>
       </div>
       <p className="text-lg text-gray-800 dark:text-gray-200">
         <FormattedMessage id="footer.info" /> <TiHeart className="inline align-baseline"/> Antonin Nhek © {new Date().getFullYear()} <br/>

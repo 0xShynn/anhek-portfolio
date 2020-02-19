@@ -18,8 +18,8 @@ const About = () => {
         <p className="">
           <FormattedMessage id="about.text2" /><br /><br /><br />
         </p>
-        <div className="flex flex-col p-6 mb-1 rounded-lg sm:p-10 md:flex-row dark:bg-gray-800">
-          <ul className="w-full text-xl list lg:w-1/2">
+        <div className="flex flex-col p-6 mb-1 rounded-lg sm:p-10 md:flex-row">
+          <ul className="w-full mb-8 text-xl list lg:w-1/2 md:mb-0">
             <li className="mb-4 text-xl font-bold uppercase text-primary font-header dark:text-secondary">
               <FormattedMessage id="about.personality.title" />
             </li>

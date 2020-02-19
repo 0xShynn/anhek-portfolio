@@ -20,7 +20,7 @@ const Hero = () => {
           <h1 className="mb-3 text-xl text-center text-gray-800 font-body md:text-2xl lg:text-2_5xl dark:text-secondary_light">
             <FormattedMessage id="hero.job_hi" /> <span className="font-bold"><FormattedMessage id="author" /></span>
           </h1>
-          <h2 className="mb-4 text-2xl font-bold leading-tight text-center md:text-left sm:text-3xl md:text-4xl lg:text-5xl">
+          <h2 className="mb-4 font-bold leading-tight text-center text-2_5xl md:text-left sm:text-3xl md:text-4xl lg:text-5xl">
             <FormattedMessage id="hero.job_design" /> &<br/> <FormattedMessage id="hero.job_dev" />
           </h2>
           <h3 className="w-full mb-6 text-xl text-center text-gray-800 font-body md:text-1xl lg:text-2xl dark:text-gray-100 md:text-left md:max-w-md lg:max-w-xl">
