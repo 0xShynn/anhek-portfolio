@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 /* LINKS */
 
@@ -56,6 +56,10 @@ p {
   fill: #5b87ff;
 }
 
+.about-icons {
+  fill: #2d3748;
+}
+
 /* ABOUT SECTION */
 
 .list li svg {
@@ -85,6 +89,9 @@ p {
     @apply text-secondary_light;
   }
   .bgNenderoid {
+    fill: #C7FF84;
+  }
+  .about-icons {
     fill: #C7FF84;
   }
   #triangle-code{

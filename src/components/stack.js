@@ -35,11 +35,11 @@ const Stack = () => {
       <div className="flex flex-wrap justify-center mx-auto mb-24 lg:max-w-3xl">
         {
           svgLogos.map(({node})=>(
-            <img src={node.publicURL} key={node.id} alt={node.name} className="w-20 m-4 transition duration-500 ease-in-out transform md:m-8 hover:scale-110"/>
+            <img src={node.publicURL} key={node.id} alt={node.name} className="w-16 m-4 transition duration-500 ease-in-out transform md:w-20 md:m-8 hover:scale-110"/>
           ))
         }
-        <img src={github_light.publicURL} key={github_light.id} alt={github_light.name} className="w-20 m-4 transition duration-500 ease-in-out transform md:m-8 dark:hidden hover:scale-110"/>
-        <img src={github_dark.publicURL} key={github_dark.id} alt={github_dark.name} className="hidden w-20 m-4 transition duration-500 ease-in-out transform md:m-8 dark:inline hover:scale-110"/>
+        <img src={github_light.publicURL} key={github_light.id} alt={github_light.name} className="w-16 m-4 transition duration-500 ease-in-out transform md:w-20 md:m-8 dark:hidden hover:scale-110"/>
+        <img src={github_dark.publicURL} key={github_dark.id} alt={github_dark.name} className="hidden w-16 m-4 transition duration-500 ease-in-out transform md:w-20 md:m-8 dark:inline hover:scale-110"/>
       </div>
     </div>
   );
