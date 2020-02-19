@@ -19,7 +19,7 @@
   "hero": {
     "job_design": "Visual Designer",
     "job_dev" : "Développeur Front-end",
-    "job_hi" : "Hello! Moi c'est",
+    "job_hi" : "Hello ! Moi c'est",
     "job_description" : "Je conçois et développe des sites web responsive, optimisés et performants.",
     "job_availability" : "Disponible pour des missions freelance."
   },
@@ -77,8 +77,8 @@
   },
   "global": {
     "backtohome": "Retour à l'Accueil",
-    "sendMail": "Contact",
-    "downloadResume": "Télécharger mon CV",
+    "sendMail": "Me contacter",
+    "downloadResume": "Mon CV",
     "resume": "https://www.dropbox.com/s/6bjuvw7zeeustn4/antonin-nhek-cv-fr.pdf"
   }
 }

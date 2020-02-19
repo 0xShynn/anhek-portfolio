@@ -20,6 +20,10 @@ module.exports = {
       screens: {
         dark: { raw: '(prefers-color-scheme: dark)' }
       },
+      spacing: {
+        '44': '11rem',
+        '60': '15rem',
+      },
       letterSpacing: {
         widy: '0.010em',
       },

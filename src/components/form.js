@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 const Form = () => {
 
   const blockStyle = "mb-6 md:mb-10";
-  const labelStyle = "dark:text-secondary uppercase text-gray-700 font-bold text-xl font-header ";
+  const labelStyle = "dark:text-secondary uppercase text-gray-800 font-bold text-xl font-header ";
   const inputStyle = "w-full px-3 py-3 mt-2 text-lg text-gray-800 dark:bg-white border rounded border-primary_light focus:border focus:border-primary focus:outline-none font-body bg-gray-100";
 
   return (

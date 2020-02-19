@@ -8,7 +8,7 @@ const languageName = {
 
 const Language = () => {
   return (
-    <div className="flex justify-between sm:ml-2 sm:ml-4 md:ml-4 lg:ml-5">
+    <div className="flex justify-between sm:ml-2 sm:ml-6">
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) =>
           languages.map(language => (
