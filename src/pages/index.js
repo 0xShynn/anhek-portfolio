@@ -40,13 +40,13 @@ const IndexPage = () => {
       <div className="bg-white dark:bg-gray-900">
         <Hero/>
       </div>
-      <div className="bg-white border-t border-gray-400 dark:border-gray-800 dark:bg-gray-900">
+      <div className="bg-white border-t border-gray-300 dark:border-gray-800 dark:bg-gray-900">
         <Work/>
       </div>
-      <div className="bg-white border-t border-gray-400 dark:border-gray-800 dark:bg-gray-900">
+      <div className="bg-white border-t border-gray-300 dark:border-gray-800 dark:bg-gray-900">
         <About/>
       </div>
-      <div className="bg-white border-t border-gray-400 dark:border-gray-800 dark:bg-gray-900">
+      <div className="bg-white border-t border-gray-300 dark:border-gray-800 dark:bg-gray-900">
         <Contact/>
       </div>
     </Layout>

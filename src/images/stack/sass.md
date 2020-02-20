@@ -1,5 +1,5 @@
 ---
 title: "Sass"
-order: 1
+order: 7
 featuredImage: ../../images/stack/sass.svg
 ---

@@ -3,38 +3,24 @@ import { useStaticQuery, graphql } from 'gatsby';
 import ReactTooltip from 'react-tooltip'
 
 const Stack = () => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     allFile(filter: {absolutePath: {regex: "/(stack-logos)/"}}, sort: {fields: name, order: ASC}) {
-  //       edges {
-  //         node {
-  //           id
-  //           name
-  //           publicURL
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
 
   const data = useStaticQuery(graphql`
-  query stack {
-    allMarkdownRemark(filter: {frontmatter: {featuredImage: {relativeDirectory: {eq: "stack"}}}}) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            featuredImage {
-              relativePath
-              publicURL
-              name
+    query stack {
+      allMarkdownRemark(filter: {frontmatter: {featuredImage: {relativeDirectory: {eq: "stack"}}}}, sort: {order: ASC, fields: frontmatter___order}) {
+        edges {
+          node {
+            id
+            frontmatter {
+              title
+              featuredImage {
+                publicURL
+              }
+              order
             }
           }
         }
       }
     }
-  }
   `)
 
   const Logos = data.allMarkdownRemark.edges;
