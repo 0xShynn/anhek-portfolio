@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 const Stack = () => {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: {absolutePath: {regex: "/(stack-logos)/"}}, sort: {fields: name, order: ASC}, limit: 7) {
+      allFile(filter: {absolutePath: {regex: "/(stack-logos)/"}}, sort: {fields: name, order: ASC}, limit: 8) {
         edges {
           node {
             id
@@ -13,12 +13,12 @@ const Stack = () => {
           }
         }
       }
-      github_light:file(name: {eq: "8-github_light"}) {
+      github_light:file(name: {eq: "09-github_light"}) {
         id
         publicURL
         name
       }
-      github_dark:file(name: {eq: "9-github_dark"}) {
+      github_dark:file(name: {eq: "10-github_dark"}) {
         id
         publicURL
         name
