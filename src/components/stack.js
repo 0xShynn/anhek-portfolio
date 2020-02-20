@@ -24,20 +24,9 @@ const Stack = () => {
   `)
 
   const Logos = data.allMarkdownRemark.edges;
-  // const svgLogos = data.allFile.edges;
 
   return (
-    <div>
-      <h3 className="mb-8 text-2xl font-bold text-center uppercase font-header text-primary dark:text-secondary">Ma Stack actuelle</h3>
       <div className="flex flex-wrap justify-center mx-auto mb-24 lg:max-w-3xl">
-        {/* {
-          svgLogos.map(({node})=>(
-            <span data-tip={node.name} data-offset="{'top': 20}">
-              <img src={node.publicURL} key={node.id} alt={node.name} className="w-16 m-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110 md:m-8"/>
-            </span>
-          ))
-        } */}
-
         {
           Logos.map(({node})=>(
             <div className="flex p-4 md:p-8">
@@ -55,10 +44,8 @@ const Stack = () => {
           place="bottom"
           type="dark"
           effect="solid"
-          className="extraClass"
         />
       </div>
-    </div>
   );
 }
 

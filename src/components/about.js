@@ -15,28 +15,42 @@ const About = () => {
         <Portrait/>
       </div>
       <div className="text-gray-800 dark:text-white">
-        <p className="mx-auto mb-16 text-2xl font-bold leading-snug text-left md:text-center md:mb-24 sm:text-2_5xl md:text-3xl lg:text-4xl font-header">
-          {/* <FormattedMessage id="about.intro" /><br /><br /><br /> */}
-          Après des années de graphisme et une reconversion en programmation web, je propose mes services en tant que Développeur Front-end freelance.
+        <p className="mx-auto mb-16 text-2xl font-bold leading-snug text-left md:text-center md:mb-24 sm:text-2_5xl md:text-3xl lg:text-3xl font-header">
+          <FormattedMessage id="about.intro" />
         </p>
         <div className="flex flex-col mb-12 lg:-mx-6 lg:flex-row">
           <div className="w-full mx-auto mb-12 text-center lg:mx-6 lg:w-1/3">
             <Design className="w-16 mx-auto mb-6 sm:w-20"/>
-            <h3 className="mb-2 font-semibold text-2_5xl lg:text-3xl font-header text-primary dark:text-secondary">Web Design</h3>
-            <p className="text-1xl md:text-2xl">Je conçois le design de vos sites web et applications.</p>
+            <h3 className="mb-2 font-semibold text-2_5xl lg:text-3xl font-header text-primary dark:text-secondary">
+              <FormattedMessage id="services.design.title" />
+            </h3>
+            <p className="text-1xl md:text-2xl">
+              <FormattedMessage id="services.design.desc" />
+            </p>
           </div>
           <div className="w-full mx-auto mb-12 text-center lg:mx-6 lg:w-1/3">
             <Integration className="w-16 mx-auto mb-6 sm:w-20"/>
-            <h3 className="mb-2 font-semibold text-2_5xl lg:text-3xl font-header text-primary dark:text-secondary">Intégration</h3>
-            <p className="text-1xl md:text-2xl">Je réalise l'intégration web de vos maquettes en Responsive Design.</p>
+            <h3 className="mb-2 font-semibold text-2_5xl lg:text-3xl font-header text-primary dark:text-secondary">
+              <FormattedMessage id="services.integration.title" />
+            </h3>
+            <p className="text-1xl md:text-2xl">
+              <FormattedMessage id="services.integration.desc" />
+            </p>
           </div>
           <div className="w-full mx-auto mb-12 text-center lg:mx-6 lg:w-1/3">
             <Development className="w-16 mx-auto mb-6 sm:w-20"/>
-            <h3 className="mb-2 font-semibold text-2_5xl lg:text-3xl font-header text-primary dark:text-secondary">Développement</h3>
-            <p className="text-1xl md:text-2xl">Je développe la partie Front-end de vos projets (JAMstack).</p>
+            <h3 className="mb-2 font-semibold text-2_5xl lg:text-3xl font-header text-primary dark:text-secondary">
+              <FormattedMessage id="services.development.title" />
+            </h3>
+            <p className="text-1xl md:text-2xl">
+              <FormattedMessage id="services.development.desc" />
+            </p>
           </div>
         </div>
         <div>
+          <h3 className="mb-8 text-2xl font-bold text-center uppercase font-header text-primary dark:text-secondary">
+            <FormattedMessage id="stack.title" />
+          </h3>
           <Stack/>
         </div>
         <div className="flex flex-col md:flex-row">

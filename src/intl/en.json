@@ -47,6 +47,24 @@
       "5": "Curious"
     }
   },
+  "services": {
+    "design": {
+      "title": "Visual Design",
+      "desc": "I create the design of your websites and applications."
+    },
+    "integration": {
+      "title": "Integration",
+      "desc": "I realize web integration of your models in Responsive Design."
+    },
+    "development": {
+      "title": "Development",
+      "desc": "I develop the Front-end part of your projects (JAMstack)."
+    }
+  },
+  "stack": {
+    "title": "My actual stack",
+    "desc": "Here's the stack I'm currently working with etc.."
+  },
   "contact": {
     "title": "Get in touch",
     "intro": "Do you have web development projects, freelance missions or just opportunities to offer me? Let's get in touch and discuss it over a coffee!"
