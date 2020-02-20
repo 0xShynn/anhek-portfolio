@@ -27,6 +27,7 @@
     "react-helmet": "^5.2.1",
     "react-icons": "^3.8.0",
     "react-obfuscate": "^3.6.2",
+    "react-tooltip": "^4.0.3",
     "typeface-overpass": "0.0.72",
     "typeface-work-sans": "0.0.72"
   },
