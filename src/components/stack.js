@@ -26,7 +26,7 @@ const Stack = () => {
   const Logos = data.allMarkdownRemark.edges;
 
   return (
-      <div className="flex flex-wrap justify-center mx-auto mb-24 lg:max-w-3xl">
+      <div className="flex flex-wrap justify-center mx-auto lg:max-w-3xl">
         {
           Logos.map(({node})=>(
             <div className="flex p-4 md:p-8">

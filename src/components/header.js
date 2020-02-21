@@ -13,7 +13,7 @@ const Header = () => {
           <AnchorLink href="#work" className="cursor-pointer hover:text-primary dark:hover:text-secondary">
             <FormattedMessage id="nav.work" />
           </AnchorLink>
-          <AnchorLink href="#about" className="mx-4 cursor-pointer sm:mx-6 md:mx-8 hover:text-primary dark:hover:text-secondary">
+          <AnchorLink href="#about" className="mx-6 cursor-pointer md:mx-8 hover:text-primary dark:hover:text-secondary">
             <FormattedMessage id="nav.about" />
           </AnchorLink>
           <AnchorLink href="#contact" className="cursor-pointer hover:text-primary dark:hover:text-secondary">

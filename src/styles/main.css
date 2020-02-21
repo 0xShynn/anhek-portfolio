@@ -10,6 +10,7 @@
   --gray-800: #2d3748;
   --primary-medium: #5285ff;
   --secondary: #C7FF84;
+  --secondary_light: #E5FEC7;
 }
 
 
@@ -124,7 +125,7 @@ p {
     fill: var(--secondary);
   }
   .about-icons {
-    fill: var(--secondary);
+    fill: var(--secondary_light);
   }
   #triangle-code{
     border-top : 17px solid white;

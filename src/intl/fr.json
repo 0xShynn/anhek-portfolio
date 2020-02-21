@@ -25,7 +25,8 @@
   },
   "about": {
     "title": "À Propos",
-    "intro": "Je suis Antonin Nhek. Après des années de graphisme et une période loin de la communication, j'ai effectué une reconversion professionnelle en janvier 2019 pour être Développeur Web.",
+    "intro": "Bonjour ! je suis Antonin Nhek, développeur Front-end basé à Lyon. Après plusieurs années de graphisme et une reconversion en programmation web, je propose mes services en tant que freelance.",
+    "presentation": "Passionné par le design et le développement web front-end, j'ai à coeur de mener à bien les opportunités qui me sont confiées en construisant des solutions modernes et efficaces. Rigoureux et exigeant, je veille à respecter les meilleures pratiques et les standards du Web. Étant également de nature curieuse et ouverte, j'aime expérimenter les dernières tendances grâce à une veille quotidienne.",
     "interests": {
       "title": "Mes centres d’intérêt",
       "1": "Design Responsive",
@@ -36,10 +37,10 @@
     },
     "personality": {
       "title": "5 choses à mon propos",
-      "1": "Esprit d'équipe",
-      "2": "Adaptabilité",
-      "3": "Autonome",
-      "4": "Méticuleux",
+      "1": "Rigoureux",
+      "2": "Autonome",
+      "3": "Minutieux",
+      "4": "Esprit d'équipe",
       "5": "Curieux"
     }
   },
@@ -93,6 +94,7 @@
     "backtohome": "Retour à l'Accueil",
     "sendMail": "Me contacter",
     "downloadResume": "Mon CV",
+    "downloadResume2": "Télécharger mon CV",
     "resume": "https://www.dropbox.com/s/6bjuvw7zeeustn4/antonin-nhek-cv-fr.pdf"
   }
 }

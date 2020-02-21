@@ -25,11 +25,8 @@
   },
   "about": {
     "title": "About Me",
-    "intro": "Hello ! I am Antonin Nhek. After years of graphics and a period away from the tech industry, I made a professional reconversion in January 2019 to be Web Developer.",
-    "text1": "I started with the bootcamp 'The Hacking Project' where I learned the core concepts of programming, back-end development and algorithmics. I realized various projects in JavaScript, Ruby and Rails. It was also the ideal environment for setting up a daily learning dynamic.",
-    "text2": "Being as much attracted by design as programming, front-end development was naturally the way to go for me. So I continued my self-taught programming journey with HTML, CSS/SCSS, JavaScript, React and Gatsby. I took courses on websites like Udemy, freeCodeCamp, Mosh Hamedani and Wes Bos.",
-    "text3": "In addition to tech field, I'm immersed in Hip-Hop culture since my teens. I regularly practice calisthenics, break-dancing and climbing. I love Spotify, Last.fm, the Nintendo Switch and Beyond Meat burgers :3",
-    "text4": "I am currently looking for a position as a Junior front-End Developer. I would love to join a dev team to bring my skills.",
+    "intro": "Hello ! I'm Antonin Nhek, Front-end developer based in Lyon (France). After several years in graphic design and a retraining in web programming, I offer my services as a freelance.",
+    "presentation": "Passionate about design and front-end web development, I am committed to carrying out the opportunities entrusted to me by building modern and effective solutions. Rigorous and demanding, I take care to respect the best practices and standards of the Web. Being also curious and open, I like to experiment with the latest trends through daily monitoring.",
     "interests": {
       "title": "My main interests",
       "1": "Responsive Design",
@@ -97,6 +94,7 @@
     "backtohome": "Back to Home",
     "sendMail": "Get in touch",
     "downloadResume": "My résumé",
+    "downloadResume2": "Download my résumé",
     "resume": "https://www.dropbox.com/s/78fl9l4mwwmaoeh/antonin-nhek-cv-int.pdf"
   }
 }
