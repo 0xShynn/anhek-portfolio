@@ -42,7 +42,6 @@ const Stack = () => {
         }
         <ReactTooltip
           place="bottom"
-          type="dark"
           effect="solid"
         />
       </div>

@@ -30,7 +30,6 @@ const Social = ({value}) => {
       </ul>
       <ReactTooltip
           place="bottom"
-          type="dark"
           effect="solid"
       />
     </div>
