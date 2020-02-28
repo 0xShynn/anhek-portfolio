@@ -7,8 +7,8 @@ const HeaderSecondary = () => {
 
   return (
     <HeaderLayout>
-      <nav>
-        <Link to="/" className="mr-3 sm:mr-4 md:mr-4 hover:text-primary dark:hover:text-secondary">
+      <nav className="flex flex-row">
+        <Link to="/" className="mr-4 hover:text-primary dark:hover:text-secondary sm:mr-0">
           <FormattedMessage id="pages.index" />
         </Link>
         <Language/>
