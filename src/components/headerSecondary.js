@@ -7,10 +7,12 @@ const HeaderSecondary = () => {
 
   return (
     <HeaderLayout>
-      <Link to="/" className="mr-3 sm:mr-4 md:mr-4 hover:text-primary dark:hover:text-secondary">
-        <FormattedMessage id="pages.index" />
-      </Link>
-      <Language/>
+      <nav>
+        <Link to="/" className="mr-3 sm:mr-4 md:mr-4 hover:text-primary dark:hover:text-secondary">
+          <FormattedMessage id="pages.index" />
+        </Link>
+        <Language/>
+      </nav>
     </HeaderLayout>
   )
 }

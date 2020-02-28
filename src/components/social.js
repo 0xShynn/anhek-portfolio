@@ -1,28 +1,35 @@
 import React from 'react';
 import { FaGithubAlt, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 import ReactTooltip from 'react-tooltip'
+import { injectIntl } from 'react-intl';
+import { useIntl } from "gatsby-plugin-intl"
 
 const Social = ({value}) => {
+  const intl = useIntl();
+
   return (
     <div className="text-4xl w-44 md:w-48 lg:w-64 md:text-4xl lg:text-5xl">
       <ul className="flex items-center justify-between">
         <li className="flex">
           <span data-tip="LinkedIn" data-offset="{'top': -10}" data-class="tooly">
-            <a className={value} href="https://www.linkedin.com/in/anhek" title="Let's connect on LinkedIn">
+            <a className={value} href="https://www.linkedin.com/in/anhek" title={intl.formatMessage({ id: "social.linkedin" })}>
+              <span className="sr-only">LinkedIn</span>
               <FaLinkedinIn/>
             </a>
           </span>
         </li>
         <li className="flex">
           <span data-tip="Github" data-offset="{'top': -10}" data-class="tooly">
-            <a className={value} href="http://github.com/anhek" title="Check my work on GitHub">
+            <a className={value} href="http://github.com/anhek" title={intl.formatMessage({ id: "social.github" })}>
+              <span className="sr-only">Github</span>
               <FaGithubAlt/>
             </a>
           </span>
         </li>
         <li className="flex">
           <span data-tip="Twitter" data-offset="{'top': -10}" data-class="tooly">
-            <a className={value} href="http://twitter.com/anhek_" title="Follow me on Twitter">
+            <a className={value} href="http://twitter.com/anhek_" title={intl.formatMessage({ id: "social.twitter" })}>
+              <span className="sr-only">Twitter</span>
               <FaTwitter/>
             </a>
           </span>
@@ -36,4 +43,4 @@ const Social = ({value}) => {
   );
 }
 
-export default Social;
+export default injectIntl(Social);

@@ -7,7 +7,7 @@ const Button = ({ link, style, text }) => {
 
   const isAnchor = /^[#]/g.test(link);
   const isURL = /^[http]/g.test(link);
-  const baseStyle = "px-6 py-2 text-xl border-2 rounded-full text-primary_medium border-primary_medium text-center hover:bg-primary_light hover:border-primary_light hover:text-primary_medium md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark "
+  const baseStyle = "px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark "
 
   if (isAnchor === true) {
     /* Return an Anchor */

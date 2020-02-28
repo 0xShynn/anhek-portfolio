@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <HeaderLayout>
       <div className="flex flex-col items-center justify-center sm:flex-row">
-        <div className="mb-1 sm:mb-0">
+        <nav className="mb-1 sm:mb-0">
           <AnchorLink href="#work" className="cursor-pointer hover:text-primary dark:hover:text-secondary">
             <FormattedMessage id="nav.work" />
           </AnchorLink>
@@ -19,7 +19,7 @@ const Header = () => {
           <AnchorLink href="#contact" className="cursor-pointer hover:text-primary dark:hover:text-secondary">
             <FormattedMessage id="nav.contact" />
           </AnchorLink>
-        </div>
+        </nav>
         <div>
           <Language/>
         </div>

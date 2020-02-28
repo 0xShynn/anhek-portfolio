@@ -13,24 +13,24 @@ const Form = () => {
 
       <div className="flex flex-col md:flex-row">
         <div className={blockStyle + "w-full md:w-1/2 md:mr-6"}>
-          <label className={labelStyle}>
+          <label className={labelStyle} htmlFor="firstname">
             <FormattedMessage id="form.firstname"/>
-            <input type="text" name="firstname" className={inputStyle} placeholder="Sena" required/>
+            <input type="text" id="firstname" name="firstname" className={inputStyle} placeholder="Sena" required/>
           </label>
         </div>
 
         <div className={blockStyle + "w-full md:w-1/2"}>
-          <label className={labelStyle}>
+          <label className={labelStyle} htmlFor="lastname">
             <FormattedMessage id="form.lastname"/>
-            <input type="text" name="name" className={inputStyle} placeholder="Kobayakawa" required/>
+            <input type="text" id="lastname" name="lastname" className={inputStyle} placeholder="Kobayakawa" required/>
           </label>
         </div>
       </div>
 
       <div className={blockStyle}>
-        <label className={labelStyle}>
+        <label className={labelStyle} htmlFor="email" >
           <FormattedMessage id="form.email"/>
-          <input type="email" name="email" className={inputStyle} placeholder="s.kobayakawa@devilbats.jp" required/>
+          <input type="email" id="email" name="email" className={inputStyle} placeholder="s.kobayakawa@devilbats.jp" required/>
         </label>
       </div>
 
@@ -42,7 +42,7 @@ const Form = () => {
       </div>
 
       <div className="flex justify-center">
-        <button type="submit" className="px-12 py-2 mt-6 text-xl font-bold text-center text-white uppercase rounded-full cursor-pointer font-header bg-primary hover:bg-primary_medium md:text-1xl dark:bg-secondary dark:text-secondary_dark dark:hover:bg-secondary_light">
+        <button type="submit" className="px-12 py-2 mt-6 text-xl font-bold text-center text-white uppercase rounded-full cursor-pointer font-header bg-primary hover:bg-primary md:text-1xl dark:bg-secondary dark:text-secondary_dark dark:hover:bg-secondary_light" aria-label="Send an email">
           <FormattedMessage id="form.send"/>
         </button>
       </div>

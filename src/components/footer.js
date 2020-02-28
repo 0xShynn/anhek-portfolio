@@ -7,7 +7,7 @@ import Button from './button';
 const Footer = () => {
 
   return (
-    <footer className="px-4 py-20 text-center bg-white border-t border-gray-400 dark:border-gray-800 dark:bg-gray-900">
+    <footer role="contentinfo" className="px-4 py-20 text-center bg-white border-t border-gray-400 dark:border-gray-800 dark:bg-gray-900">
       <h3 className="font-bold text-gray-800 uppercase text-1xl dark:text-white">
         <FormattedMessage id="footer.socialconnect" />
       </h3>

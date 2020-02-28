@@ -13,11 +13,11 @@ import "../styles/main.css"
 import Footer from "./footer"
 
 const Layout = ({ children }) => {
-  
+
   return (
     <>
       <div className="mx-auto bg-white dark:bg-gray-900">
-        <main>{children}</main>
+        <main role="main">{children}</main>
         <Footer/>
       </div>
     </>

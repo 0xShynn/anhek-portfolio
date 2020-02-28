@@ -17,12 +17,12 @@ const Language = () => {
                 className={
                   "cursor-pointer inline-block " +
                   (currentLocale === language ?
-                    `lang_active relative text-primary dark:text-secondary` : `lang_inactive text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white`) }
+                    `lang_active relative text-primary dark:text-secondary` : `lang_inactive text-gray-700 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white`) }
                 onClick={() => changeLocale(language)}
               >
                 {languageName[language]}
               </button>
-              <span className="mx-2 text-gray-500 align-baseline separator">/</span>
+              <span className="mx-2 text-gray-600 align-baseline separator">/</span>
             </div>
           ))
         }

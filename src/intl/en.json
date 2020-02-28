@@ -81,9 +81,9 @@
     "back_to_top": "Back to top"
   },
   "social": {
-    "twitter": "See my Twitter profile",
-    "github": "See my GitHub profile",
-    "linkedin": "See my LinkedIn profile",
+    "twitter": "Go to my Twitter profile",
+    "github": "Go to my GitHub profile",
+    "linkedin": "Go to my LinkedIn profile",
     "email": "Send a mail"
   },
   "notfound": {
