@@ -42,8 +42,6 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, t
       <>
         <a href={url} className="light dark">
           {selectedTitle}
-        </a>
-        <a href={url} className="light dark">
           <FiExternalLink className="inline mb-1 ml-4"/>
         </a>
       </>
@@ -55,6 +53,7 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, t
       <>
         <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-600 font-body">•</span>
         <a href={source_url} className="inline light dark">
+          <span className="sr-only">Github: {selectedTitle}</span>
           <FaGithubAlt className="inline mb-0 ml-1"/>
         </a>
       </>
@@ -63,7 +62,7 @@ const ProjectDev = ({ title, title_fr, description, description_fr, img, tags, t
 
   const tagsList = () => {
     const tagsSpace = "mx-1"
-    const tagsStyle = "px-2 py-1 mb-2 text-gray-600 bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400";
+    const tagsStyle = "px-2 py-1 mb-2 text-gray-700 bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400";
     if (lang === 'fr') {
       return tags_fr.map((tag, i) => [
         i > 0 && <span className={tagsSpace}/>,
