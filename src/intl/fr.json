@@ -18,10 +18,10 @@
   },
   "hero": {
     "job_design": "Visual Designer",
-    "job_dev" : "Développeur Front-end",
-    "job_hi" : "Hello ! Moi c'est",
-    "job_description" : "Je conçois et développe des sites web responsive, optimisés et performants.",
-    "job_availability" : "Actuellement disponible pour des missions freelance."
+    "job_dev": "Développeur Front-end",
+    "job_hi": "Hello ! Moi c'est",
+    "job_description": "Je conçois et développe des sites web responsive, optimisés et performants.",
+    "job_availability": "Actuellement disponible pour des missions freelance."
   },
   "about": {
     "title": "À Propos",
@@ -81,9 +81,6 @@
     "back_to_top": "Retour en haut de page"
   },
   "social": {
-    "twitter": "Visiter mon profil Twitter",
-    "github": "Visiter mon profil GitHub",
-    "linkedin": "Visiter mon profil LinkedIn",
     "email": "Envoyer un mail"
   },
   "notfound": {

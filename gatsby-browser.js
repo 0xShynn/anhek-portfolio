@@ -6,9 +6,8 @@
 
 // You can delete this file if you're not using it
 
-require('typeface-work-sans');
-require('typeface-overpass');
-
+require("typeface-work-sans")
+require("typeface-overpass")
 
 // export const onServiceWorkerUpdateReady = () => {
 //   const answer = window.confirm(

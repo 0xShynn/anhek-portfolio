@@ -10,11 +10,9 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useIntl } from "gatsby-plugin-intl"
 
-
 function SEO({ meta, lang, title, image }) {
+  const intl = useIntl()
 
-  const intl = useIntl();
-  
   return (
     <Helmet
       htmlAttributes={{
@@ -62,13 +60,13 @@ function SEO({ meta, lang, title, image }) {
         },
         {
           name: `twitter:description`,
-          content:`${intl.formatMessage({ id: "description" })}`,
+          content: `${intl.formatMessage({ id: "description" })}`,
         },
         {
           name: `twitter:image`,
-          // content: `${image}`, 
+          // content: `${image}`,
           content: `https://www.dropbox.com/s/p4gdjxlj0y6atky/anhek-screenshot.png?raw=1`,
-        }
+        },
       ].concat(meta)}
     />
   )

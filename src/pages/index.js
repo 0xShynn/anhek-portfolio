@@ -12,12 +12,11 @@ import About from "../components/about"
 import SEO from "../components/seo"
 import Contact from "../components/contact"
 
-
 const IndexPage = () => {
-  const intl = useIntl();
+  const intl = useIntl()
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: {eq: "anhek-screenshot.png"}) {
+      file(relativePath: { eq: "anhek-screenshot.png" }) {
         id
         childImageSharp {
           fixed(width: 1040) {
@@ -36,18 +35,18 @@ const IndexPage = () => {
         keywords={[`developer`, `front-end developer`, `graphic designer`]}
         image={data.file.childImageSharp.fixed.src}
       />
-      <Header siteTitle={intl.formatMessage({ id: "title" })}/>
+      <Header siteTitle={intl.formatMessage({ id: "title" })} />
       <div className="bg-white dark:bg-gray-900">
-        <Hero/>
+        <Hero />
       </div>
       <div className="bg-white border-t border-gray-300 dark:border-gray-800 dark:bg-gray-900">
-        <Work/>
+        <Work />
       </div>
       <div className="bg-white border-t border-gray-300 dark:border-gray-800 dark:bg-gray-900">
-        <About/>
+        <About />
       </div>
       <div className="bg-white border-t border-gray-300 dark:border-gray-800 dark:bg-gray-900">
-        <Contact/>
+        <Contact />
       </div>
     </Layout>
   )

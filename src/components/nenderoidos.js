@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-const Nenderoidos = (props) => (
+const Nenderoidos = props => (
   <svg viewBox="0 0 300 332" {...props}>
     <defs>
       <path id="prefix__a" d="M0 .398h158.367v114.94H0z" />

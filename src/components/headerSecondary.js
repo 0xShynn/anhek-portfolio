@@ -4,14 +4,16 @@ import Language from "./language"
 import HeaderLayout from "./headerLayout"
 
 const HeaderSecondary = () => {
-
   return (
     <HeaderLayout>
       <nav className="flex flex-row">
-        <Link to="/" className="mr-4 hover:text-primary dark:hover:text-secondary sm:mr-0">
+        <Link
+          to="/"
+          className="mr-4 hover:text-primary dark:hover:text-secondary sm:mr-0"
+        >
           <FormattedMessage id="pages.index" />
         </Link>
-        <Language/>
+        <Language />
       </nav>
     </HeaderLayout>
   )

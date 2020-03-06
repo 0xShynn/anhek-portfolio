@@ -7,6 +7,22 @@ description_fr: "Portfolio qui présente une sélection de projets clôturant un
 featuredImage: ../../images/development/anhek-portfolio.png
 url: "#work"
 source_url: "https://github.com/anhek/anhek-portfolio"
-tags: ["Visual Identity", "Web Design", "React", "Gatsby", "GraphQL", "Tailwind CSS"]
-tags_fr: ["Identité Visuelle", "Web Design", "React", "Gatsby", "GraphQL", "Tailwind CSS"]
+tags:
+  [
+    "Visual Identity",
+    "Web Design",
+    "React",
+    "Gatsby",
+    "GraphQL",
+    "Tailwind CSS",
+  ]
+tags_fr:
+  [
+    "Identité Visuelle",
+    "Web Design",
+    "React",
+    "Gatsby",
+    "GraphQL",
+    "Tailwind CSS",
+  ]
 ---
