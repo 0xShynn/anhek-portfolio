@@ -1,7 +1,7 @@
 import React from "react"
 import { FaGithubAlt, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 import ReactTooltip from "react-tooltip"
-import { injectIntl } from "react-intl"
+import { injectIntl } from "gatsby-plugin-intl"
 
 const Social = ({ value }) => {
   return (

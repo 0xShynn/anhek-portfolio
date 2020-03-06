@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { injectIntl } from "react-intl"
+import { injectIntl } from "gatsby-plugin-intl"
 
 import "../styles/main.css"
 import Footer from "./footer"

@@ -1,6 +1,6 @@
 import React from "react"
 import Form from "./form"
-import { FormattedMessage } from "react-intl"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const Contact = () => {
   return (

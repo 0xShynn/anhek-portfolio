@@ -1,7 +1,6 @@
 import React from "react"
 
-import { FormattedMessage, injectIntl } from "react-intl"
-import { useIntl } from "gatsby-plugin-intl"
+import { FormattedMessage, injectIntl, useIntl } from "gatsby-plugin-intl"
 
 import Nenderoidos from "./nenderoidos"
 import Button from "./button"

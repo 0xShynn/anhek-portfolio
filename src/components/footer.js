@@ -1,6 +1,6 @@
 import React from "react"
 import Social from "./social"
-import { FormattedMessage, injectIntl } from "react-intl"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import { TiHeart } from "react-icons/ti"
 import Button from "./button"
 

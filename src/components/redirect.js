@@ -1,5 +1,5 @@
 import React from "react"
-import { injectIntl } from "react-intl"
+import { injectIntl } from "gatsby-plugin-intl"
 import SEO from "./seo"
 
 const Redirect = ({ intl }) => {

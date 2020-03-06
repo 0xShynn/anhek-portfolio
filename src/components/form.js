@@ -1,5 +1,5 @@
 import React from "react"
-import { FormattedMessage } from "react-intl"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const Form = () => {
   const blockStyle = "mb-6 md:mb-10"

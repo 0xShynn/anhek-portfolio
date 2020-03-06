@@ -1,6 +1,5 @@
 import React from "react"
-import { FormattedMessage } from "react-intl"
-import { useIntl } from "gatsby-plugin-intl"
+import { FormattedMessage, useIntl } from "gatsby-plugin-intl"
 import Portrait from "./portrait"
 import Stack from "./stack"
 import Integration from "./icons/integration"
