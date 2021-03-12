@@ -1,7 +1,7 @@
 ---
 title: "devSwag"
 title_fr: "devSwag"
-order: 3
+order: 4
 description: "Website redesign contribution for the open source project called 'devSwag' during the Hacktoberfest 2019."
 description_fr: "Contribution de redesign pour le projet open source 'devSwag' lors du Hacktoberfest 2019."
 featuredImage: ../../images/development/dev-swag.png

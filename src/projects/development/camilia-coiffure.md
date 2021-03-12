@@ -1,11 +1,11 @@
 ---
 title: "Camilia Coiffure"
 title_fr: "Camilia Coiffure"
-order: 1
+order: 2
 description: "Visual identity, print creations and responsive website created with GatsbyJS and Tailwind CSS."
 description_fr: "Identité visuelle, créations print et site web responsive réalisé avec GatsbySJ et Tailwind CSS."
 featuredImage: ../../images/development/camilia-coiffure.jpg
-url: "http://camilia-coiffure.fr"
+url: "https://camilia-coiffure.fr"
 source_url: "https://github.com/anhek/camilia-coiffure"
 tags:
   [
