@@ -9,10 +9,9 @@
 :root {
   --gray-800: #2d3748;
   --primary-medium: #5285ff;
-  --secondary: #C7FF84;
-  --secondary_light: #E5FEC7;
+  --secondary: #c7ff84;
+  --secondary_light: #e5fec7;
 }
-
 
 /* LINKS */
 
@@ -20,11 +19,28 @@ body {
   @apply font-body;
 }
 
-a {
-  transition: all .3s;
+@screen dark {
+  body {
+    @apply bg-gray-800;
+  }
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+a {
+  transition: all 0.3s;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   @apply font-header tracking-widy;
 }
 
@@ -35,7 +51,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .light:hover {
   @apply text-gray-800;
 }
-
 
 /* TYPOGRAPHY */
 
@@ -57,25 +72,22 @@ p {
   @apply hidden;
 }
 
-
 /* ABOUT SECTION */
 
 .list li svg {
   @apply inline mr-2 text-gray-500;
 }
 
-
 /* 404 PAGE */
 
-#triangle-code{
-  display : inline-block;
-  height : 0;
-  width : 0;
-  border-top : 17px solid #e2e8f0;
-  border-right : 10px solid transparent;
-  border-left : 10px solid transparent;
- }
-
+#triangle-code {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-top: 17px solid #e2e8f0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
 
 /* SVG Settings */
 
@@ -87,7 +99,6 @@ p {
   fill: var(--gray-800);
 }
 
-
 /* TOOLTIP CUSTOM */
 
 .tooly {
@@ -97,7 +108,7 @@ p {
   background-color: var(--gray-800) !important;
 }
 
-.tooly.place-bottom::after{
+.tooly.place-bottom::after {
   border-bottom-color: var(--gray-800) !important;
 }
 
@@ -106,11 +117,10 @@ p {
     background-color: white !important;
     color: var(--gray-800) !important;
   }
-  .tooly.place-bottom::after{
+  .tooly.place-bottom::after {
     border-bottom-color: white !important;
   }
 }
-
 
 /* DARK SETTINGS */
 
@@ -127,7 +137,7 @@ p {
   .about-icons {
     fill: var(--secondary_light);
   }
-  #triangle-code{
-    border-top : 17px solid white;
-   }
+  #triangle-code {
+    border-top: 17px solid white;
+  }
 }
